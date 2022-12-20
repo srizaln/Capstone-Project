@@ -1,0 +1,926 @@
+[2022-12-14T08:22:04.804+0000] {processor.py:154} INFO - Started process (PID=73) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:22:04.812+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:22:04.831+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:22:04.830+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:22:18.358+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_transaction', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:22:33.818+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:22:33.818+0000] {manager.py:507} INFO - Created Permission View: can edit on DAG:dag_export_song
+[2022-12-14T08:22:33.919+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:22:33.919+0000] {manager.py:507} INFO - Created Permission View: can delete on DAG:dag_export_song
+[2022-12-14T08:22:33.975+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:22:33.974+0000] {manager.py:507} INFO - Created Permission View: can read on DAG:dag_export_song
+[2022-12-14T08:22:34.347+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:22:34.346+0000] {manager.py:507} INFO - Created Permission View: can edit on DAG:dag_export_transaction
+[2022-12-14T08:22:34.583+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:22:34.582+0000] {manager.py:507} INFO - Created Permission View: can delete on DAG:dag_export_transaction
+[2022-12-14T08:22:34.664+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:22:34.660+0000] {manager.py:507} INFO - Created Permission View: can read on DAG:dag_export_transaction
+[2022-12-14T08:22:34.806+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:22:34.782+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:22:35.106+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:22:35.105+0000] {dag.py:2606} INFO - Creating ORM DAG for dag_export_transaction
+[2022-12-14T08:22:35.117+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:22:35.115+0000] {dag.py:2606} INFO - Creating ORM DAG for dag_export_song
+[2022-12-14T08:22:35.287+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:22:35.284+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:22:35.355+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:22:35.355+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-11T00:00:00+00:00, run_after=2022-12-12T00:00:00+00:00
+[2022-12-14T08:22:35.475+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:22:35.475+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T05:00:00+00:00, run_after=2022-12-14T08:00:00+00:00
+[2022-12-14T08:22:35.917+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 31.131 seconds
+[2022-12-14T08:22:49.401+0000] {processor.py:154} INFO - Started process (PID=100) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:22:49.447+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:22:49.477+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:22:49.477+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:23:01.505+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_revenue', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:23:03.162+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:23:03.161+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:23:03.323+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:23:03.322+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:23:03.396+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:23:03.395+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-11T00:00:00+00:00, run_after=2022-12-12T00:00:00+00:00
+[2022-12-14T08:23:03.409+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:23:03.408+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T05:00:00+00:00, run_after=2022-12-14T08:00:00+00:00
+[2022-12-14T08:23:03.784+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 14.731 seconds
+[2022-12-14T08:23:34.337+0000] {processor.py:154} INFO - Started process (PID=122) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:23:34.339+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:23:34.341+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:23:34.341+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:23:35.451+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_revenue', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:23:35.905+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:23:35.904+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:23:35.962+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:23:35.961+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:23:35.983+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:23:35.983+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-11T00:00:00+00:00, run_after=2022-12-12T00:00:00+00:00
+[2022-12-14T08:23:36.000+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:23:36.000+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T05:00:00+00:00, run_after=2022-12-14T08:00:00+00:00
+[2022-12-14T08:23:36.059+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.742 seconds
+[2022-12-14T08:24:06.669+0000] {processor.py:154} INFO - Started process (PID=144) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:24:06.671+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:24:06.678+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:24:06.677+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:24:08.494+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_transaction', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:24:08.706+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:24:08.705+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:24:09.552+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:24:09.552+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:24:09.585+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:24:09.584+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-12T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:24:09.609+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:24:09.608+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:24:09.716+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 3.055 seconds
+[2022-12-14T08:24:40.039+0000] {processor.py:154} INFO - Started process (PID=173) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:24:40.040+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:24:40.042+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:24:40.041+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:24:40.706+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_revenue', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:24:40.770+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:24:40.770+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:24:41.009+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:24:41.009+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:24:41.019+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:24:41.019+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-12T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:24:41.026+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:24:41.026+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:24:41.052+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.018 seconds
+[2022-12-14T08:25:11.578+0000] {processor.py:154} INFO - Started process (PID=193) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:25:11.599+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:25:11.626+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:25:11.626+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:25:15.934+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_song', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:25:17.243+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:25:16.269+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:25:17.377+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:25:17.376+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:25:17.422+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:25:17.421+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-12T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:25:17.450+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:25:17.450+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:25:17.645+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 6.086 seconds
+[2022-12-14T08:25:48.613+0000] {processor.py:154} INFO - Started process (PID=222) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:25:48.627+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:25:48.641+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:25:48.630+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:25:55.312+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_song', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:25:55.869+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:25:55.867+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:25:56.068+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:25:56.068+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:25:56.129+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:25:56.129+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-12T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:25:56.153+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:25:56.153+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:25:56.240+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 7.673 seconds
+[2022-12-14T08:26:26.497+0000] {processor.py:154} INFO - Started process (PID=246) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:26:26.500+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:26:26.503+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:26:26.502+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:26:27.195+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_song', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:26:27.565+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:26:27.563+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:26:27.619+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:26:27.618+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:26:27.628+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:26:27.628+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-15T00:00:00+00:00, run_after=2022-12-18T00:00:00+00:00
+[2022-12-14T08:26:27.641+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:26:27.641+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:26:27.685+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.196 seconds
+[2022-12-14T08:26:58.060+0000] {processor.py:154} INFO - Started process (PID=277) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:26:58.061+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:26:58.063+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:26:58.063+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:26:58.745+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_song', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:26:59.065+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:26:59.064+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:26:59.149+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:26:59.149+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:26:59.175+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:26:59.175+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-15T00:00:00+00:00, run_after=2022-12-18T00:00:00+00:00
+[2022-12-14T08:26:59.186+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:26:59.186+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:26:59.233+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.177 seconds
+[2022-12-14T08:27:19.260+0000] {processor.py:154} INFO - Started process (PID=289) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:27:19.261+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:27:19.262+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:27:19.262+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:27:20.257+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_transaction', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:27:20.594+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:27:20.593+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:27:20.645+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:27:20.644+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:27:20.658+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:27:20.658+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:27:20.673+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:27:20.673+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:27:20.728+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.473 seconds
+[2022-12-14T08:27:27.697+0000] {processor.py:154} INFO - Started process (PID=301) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:27:27.698+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:27:27.701+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:27:27.700+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:27:28.347+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_revenue', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:27:28.682+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:27:28.681+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:27:28.722+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:27:28.721+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:27:28.732+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:27:28.732+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:27:28.738+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:27:28.738+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:26:00+00:00, run_after=2022-12-14T08:27:00+00:00
+[2022-12-14T08:27:28.793+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.101 seconds
+[2022-12-14T08:27:59.686+0000] {processor.py:154} INFO - Started process (PID=326) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:27:59.704+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:27:59.711+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:27:59.711+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:28:01.100+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_revenue', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:28:01.224+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:28:01.223+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:28:01.766+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:28:01.765+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:28:01.805+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:28:01.805+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:28:01.828+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:28:01.828+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:28:00+00:00, run_after=2022-12-14T08:29:00+00:00
+[2022-12-14T08:28:01.916+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 2.236 seconds
+[2022-12-14T08:28:11.756+0000] {processor.py:154} INFO - Started process (PID=331) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:28:11.758+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:28:11.760+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:28:11.760+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:28:12.759+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_song', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:28:13.135+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:28:13.134+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:28:13.180+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:28:13.180+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:28:13.193+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:28:13.193+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:28:13.205+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:28:13.205+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:28:13.276+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.525 seconds
+[2022-12-14T08:28:22.277+0000] {processor.py:154} INFO - Started process (PID=342) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:28:22.281+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:28:22.283+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:28:22.283+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:28:24.620+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_transaction', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:28:24.890+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:28:24.709+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:28:24.938+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:28:24.937+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:28:24.949+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:28:24.948+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:28:24.956+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:28:24.956+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:28:24.995+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 2.722 seconds
+[2022-12-14T08:28:55.324+0000] {processor.py:154} INFO - Started process (PID=372) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:28:55.328+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:28:55.332+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:28:55.331+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:28:56.174+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_song', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:28:56.456+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:28:56.455+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:28:56.497+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:28:56.496+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:28:56.507+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:28:56.507+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:28:56.519+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:28:56.518+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:28:56.575+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.262 seconds
+[2022-12-14T08:29:26.962+0000] {processor.py:154} INFO - Started process (PID=393) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:29:26.964+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:29:26.965+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:29:26.965+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:29:27.479+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_revenue', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:29:27.698+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:29:27.697+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:29:27.737+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:29:27.737+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:29:27.745+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:29:27.745+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:29:27.752+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:29:27.752+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:29:27.777+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 0.819 seconds
+[2022-12-14T08:29:58.025+0000] {processor.py:154} INFO - Started process (PID=423) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:29:58.030+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:29:58.040+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:29:58.040+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:29:59.684+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_song', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:30:00.556+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:30:00.554+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:30:01.460+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:30:01.460+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:30:01.654+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:30:01.653+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:30:01.722+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:30:01.722+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:30:02.054+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 4.035 seconds
+[2022-12-14T08:30:32.689+0000] {processor.py:154} INFO - Started process (PID=444) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:30:32.691+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:30:32.693+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:30:32.692+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:30:33.752+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_revenue', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:30:34.059+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:30:34.058+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:30:34.147+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:30:34.147+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:30:34.166+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:30:34.166+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:30:34.188+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:30:34.187+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:30:34.241+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.556 seconds
+[2022-12-14T08:31:05.636+0000] {processor.py:154} INFO - Started process (PID=464) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:31:05.763+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:31:05.795+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:31:05.794+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:31:14.317+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_revenue', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:31:14.869+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:31:14.868+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:31:15.453+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:31:15.452+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:31:15.481+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:31:15.480+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:31:15.503+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:31:15.502+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:31:15.625+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 10.086 seconds
+[2022-12-14T08:31:46.014+0000] {processor.py:154} INFO - Started process (PID=492) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:31:46.016+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:31:46.018+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:31:46.018+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:31:46.971+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_revenue', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:31:47.175+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:31:47.173+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:31:47.692+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:31:47.692+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:31:47.708+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:31:47.707+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:31:47.719+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:31:47.718+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:31:47.760+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.753 seconds
+[2022-12-14T08:32:18.256+0000] {processor.py:154} INFO - Started process (PID=514) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:32:18.259+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:32:18.261+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:32:18.261+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:32:20.373+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_song', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:32:21.472+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:32:21.470+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:32:21.984+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:32:21.983+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:32:22.064+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:32:22.052+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:32:22.128+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:32:22.127+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:32:22.273+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 4.027 seconds
+[2022-12-14T08:32:52.766+0000] {processor.py:154} INFO - Started process (PID=534) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:32:52.769+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:32:52.771+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:32:52.771+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:32:54.122+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_revenue', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:32:54.858+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:32:54.856+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:32:55.009+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:32:55.009+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:32:55.042+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:32:55.042+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:32:55.066+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:32:55.065+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:32:55.117+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 2.361 seconds
+[2022-12-14T08:33:25.182+0000] {processor.py:154} INFO - Started process (PID=563) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:33:25.184+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:33:25.186+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:33:25.185+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:33:26.283+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_revenue', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:33:26.544+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:33:26.544+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:33:26.594+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:33:26.594+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:33:26.607+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:33:26.607+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:33:26.616+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:33:26.616+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:33:26.648+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.474 seconds
+[2022-12-14T08:33:56.809+0000] {processor.py:154} INFO - Started process (PID=584) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:33:56.813+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:33:56.814+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:33:56.814+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:33:57.530+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_transaction', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:33:57.794+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:33:57.793+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:33:57.841+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:33:57.841+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:33:57.853+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:33:57.852+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:33:57.860+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:33:57.860+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:33:57.885+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.081 seconds
+[2022-12-14T08:34:28.190+0000] {processor.py:154} INFO - Started process (PID=613) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:34:28.191+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:34:28.192+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:34:28.192+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:34:28.873+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_revenue', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:34:28.940+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:34:28.939+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:34:29.310+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:34:29.310+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:34:29.324+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:34:29.324+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:34:29.333+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:34:29.333+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:34:29.362+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.177 seconds
+[2022-12-14T08:34:59.646+0000] {processor.py:154} INFO - Started process (PID=634) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:34:59.647+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:34:59.648+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:34:59.648+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:35:00.600+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_song', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:35:00.678+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:35:00.677+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:35:00.946+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:35:00.946+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:35:00.958+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:35:00.958+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:35:00.986+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:35:00.985+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:35:01.105+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.463 seconds
+[2022-12-14T08:35:31.800+0000] {processor.py:154} INFO - Started process (PID=662) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:35:31.815+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:35:31.817+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:35:31.817+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:35:34.691+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_song', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:35:35.239+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:35:34.808+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:35:35.305+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:35:35.305+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:35:35.318+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:35:35.318+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:35:35.327+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:35:35.327+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:35:35.367+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 3.596 seconds
+[2022-12-14T08:36:06.075+0000] {processor.py:154} INFO - Started process (PID=686) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:36:06.077+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:36:06.079+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:36:06.079+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:36:06.746+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_transaction', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:36:06.966+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:36:06.965+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:36:07.007+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:36:07.007+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:36:07.017+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:36:07.016+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:36:07.027+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:36:07.027+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:36:07.066+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 0.996 seconds
+[2022-12-14T08:36:37.919+0000] {processor.py:154} INFO - Started process (PID=707) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:36:37.935+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:36:37.939+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:36:37.939+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:36:41.658+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_song', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:36:42.251+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:36:42.249+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:36:42.370+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:36:42.370+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:36:42.398+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:36:42.398+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:36:42.438+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:36:42.438+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:36:42.594+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 4.723 seconds
+[2022-12-14T08:37:12.879+0000] {processor.py:154} INFO - Started process (PID=728) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:37:12.881+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:37:12.882+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:37:12.882+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:37:13.384+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_song', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:37:13.715+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:37:13.714+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:37:13.754+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:37:13.754+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:37:13.766+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:37:13.766+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:37:13.774+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:37:13.774+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:37:13.801+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 0.926 seconds
+[2022-12-14T08:37:44.999+0000] {processor.py:154} INFO - Started process (PID=748) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:37:45.025+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:37:45.034+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:37:45.034+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:37:48.144+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_revenue', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:37:48.384+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:37:48.383+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:37:48.649+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:37:48.649+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:37:48.764+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:37:48.764+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:37:48.844+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:37:48.843+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:37:49.221+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 4.235 seconds
+[2022-12-14T08:38:19.714+0000] {processor.py:154} INFO - Started process (PID=767) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:38:19.715+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:38:19.717+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:38:19.716+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:38:20.431+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_transaction', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:38:20.516+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:38:20.516+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:38:20.752+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:38:20.751+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:38:20.764+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:38:20.764+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:38:20.775+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:38:20.775+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:38:20.805+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.095 seconds
+[2022-12-14T08:38:51.041+0000] {processor.py:154} INFO - Started process (PID=796) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:38:51.042+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:38:51.043+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:38:51.043+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:38:51.600+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_revenue', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:38:51.815+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:38:51.656+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:38:51.863+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:38:51.863+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:38:51.872+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:38:51.872+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:38:51.878+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:38:51.878+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:38:51.905+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 0.869 seconds
+[2022-12-14T08:39:22.244+0000] {processor.py:154} INFO - Started process (PID=817) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:39:22.245+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:39:22.247+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:39:22.246+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:39:22.970+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_song', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:39:23.388+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:39:23.387+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:39:23.513+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:39:23.513+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:39:23.543+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:39:23.543+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:39:23.571+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:39:23.570+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:39:23.658+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.419 seconds
+[2022-12-14T08:39:54.011+0000] {processor.py:154} INFO - Started process (PID=846) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:39:54.013+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:39:54.015+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:39:54.014+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:39:54.703+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_transaction', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:39:54.930+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:39:54.929+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:39:54.973+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:39:54.972+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:39:54.983+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:39:54.982+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:39:54.993+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:39:54.993+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:39:55.024+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.018 seconds
+[2022-12-14T08:40:25.404+0000] {processor.py:154} INFO - Started process (PID=866) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:40:25.405+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:40:25.407+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:40:25.407+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:40:26.060+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_transaction', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:40:26.339+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:40:26.338+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:40:26.385+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:40:26.385+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:40:26.398+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:40:26.398+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:40:26.407+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:40:26.407+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:40:26.456+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.061 seconds
+[2022-12-14T08:40:56.969+0000] {processor.py:154} INFO - Started process (PID=894) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:40:56.971+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:40:56.974+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:40:56.974+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:40:57.928+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_revenue', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:40:58.028+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:40:58.027+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:40:58.114+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:40:58.114+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:40:58.132+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:40:58.132+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:40:58.141+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:40:58.141+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:40:58.174+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.210 seconds
+[2022-12-14T08:41:28.319+0000] {processor.py:154} INFO - Started process (PID=918) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:41:28.321+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:41:28.322+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:41:28.322+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:41:28.865+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_revenue', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:41:28.930+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:41:28.930+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:41:29.209+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:41:29.208+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:41:29.227+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:41:29.227+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:41:29.237+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:41:29.237+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:41:29.262+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 0.948 seconds
+[2022-12-14T08:41:59.663+0000] {processor.py:154} INFO - Started process (PID=947) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:41:59.665+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:41:59.667+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:41:59.666+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:42:00.309+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_revenue', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:42:00.421+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:42:00.419+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:42:00.726+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:42:00.725+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:42:00.735+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:42:00.734+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:42:00.744+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:42:00.744+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:42:00.774+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.117 seconds
+[2022-12-14T08:42:31.622+0000] {processor.py:154} INFO - Started process (PID=967) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:42:31.624+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:42:31.625+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:42:31.625+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:42:32.326+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_song', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:42:32.580+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:42:32.579+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:42:32.618+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:42:32.617+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:42:32.626+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:42:32.626+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:42:32.637+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:42:32.637+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:42:32.667+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.050 seconds
+[2022-12-14T08:43:02.938+0000] {processor.py:154} INFO - Started process (PID=988) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:43:02.940+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:43:02.942+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:43:02.942+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:43:03.629+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_revenue', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:43:03.882+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:43:03.881+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:43:03.935+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:43:03.935+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:43:03.946+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:43:03.946+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:43:03.957+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:43:03.956+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:43:04.022+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.088 seconds
+[2022-12-14T08:43:34.250+0000] {processor.py:154} INFO - Started process (PID=1018) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:43:34.251+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:43:34.253+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:43:34.252+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:43:34.974+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_revenue', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:43:35.401+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:43:35.400+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:43:35.480+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:43:35.479+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:43:35.505+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:43:35.505+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:43:35.527+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:43:35.527+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:43:35.586+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.340 seconds
+[2022-12-14T08:44:05.683+0000] {processor.py:154} INFO - Started process (PID=1038) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:44:05.685+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:44:05.687+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:44:05.686+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:44:06.380+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_revenue', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:44:06.600+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:44:06.598+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:44:06.644+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:44:06.644+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:44:06.654+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:44:06.654+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:44:06.662+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:44:06.662+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:44:06.696+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.019 seconds
+[2022-12-14T08:44:36.991+0000] {processor.py:154} INFO - Started process (PID=1068) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:44:36.993+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:44:36.995+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:44:36.995+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:44:37.598+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_revenue', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:44:37.715+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:44:37.713+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:44:37.943+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:44:37.942+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:44:37.954+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:44:37.954+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:44:37.964+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:44:37.964+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:44:37.995+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.008 seconds
+[2022-12-14T08:45:08.342+0000] {processor.py:154} INFO - Started process (PID=1089) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:45:08.344+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:45:08.346+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:45:08.346+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:45:09.605+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_song', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:45:09.669+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:45:09.669+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:45:09.874+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:45:09.874+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:45:09.884+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:45:09.884+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:45:09.891+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:45:09.891+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:45:09.926+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.594 seconds
+[2022-12-14T08:45:40.259+0000] {processor.py:154} INFO - Started process (PID=1118) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:45:40.261+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:45:40.263+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:45:40.263+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:45:40.843+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_revenue', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:45:41.042+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:45:41.041+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:45:41.077+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:45:41.077+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:45:41.085+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:45:41.085+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:45:41.092+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:45:41.092+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:45:41.121+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 0.869 seconds
+[2022-12-14T08:46:11.586+0000] {processor.py:154} INFO - Started process (PID=1138) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:46:11.588+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:46:11.589+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:46:11.589+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:46:12.555+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_transaction', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:46:12.898+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:46:12.896+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:46:12.947+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:46:12.946+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:46:12.956+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:46:12.955+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:46:12.963+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:46:12.963+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:46:12.989+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.409 seconds
+[2022-12-14T08:46:43.303+0000] {processor.py:154} INFO - Started process (PID=1167) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:46:43.304+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:46:43.306+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:46:43.306+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:46:43.826+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_song', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:46:44.073+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:46:44.073+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:46:44.141+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:46:44.140+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:46:44.164+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:46:44.164+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:46:44.208+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:46:44.207+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:46:44.255+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 0.956 seconds
+[2022-12-14T08:47:14.584+0000] {processor.py:154} INFO - Started process (PID=1187) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:47:14.587+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:47:14.589+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:47:14.589+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:47:15.986+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_transaction', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:47:16.426+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:47:16.425+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:47:16.527+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:47:16.526+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:47:16.552+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:47:16.551+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:47:16.568+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:47:16.568+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:47:16.631+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 2.055 seconds
+[2022-12-14T08:47:46.840+0000] {processor.py:154} INFO - Started process (PID=1207) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:47:46.842+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:47:46.843+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:47:46.843+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:47:47.546+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_song', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:47:47.603+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:47:47.603+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:47:47.641+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:47:47.641+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:47:47.650+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:47:47.650+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:47:47.657+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:47:47.657+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:47:47.712+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 0.876 seconds
+[2022-12-14T08:48:17.838+0000] {processor.py:154} INFO - Started process (PID=1227) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:48:17.840+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:48:17.842+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:48:17.841+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:48:18.583+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_transaction', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:48:18.662+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:48:18.661+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:48:18.892+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:48:18.892+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:48:18.903+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:48:18.903+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:48:18.912+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:48:18.912+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:48:18.944+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.111 seconds
+[2022-12-14T08:48:49.281+0000] {processor.py:154} INFO - Started process (PID=1248) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:48:49.288+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:48:49.290+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:48:49.290+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:48:50.075+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_revenue', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:48:50.418+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:48:50.165+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:48:50.539+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:48:50.539+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:48:50.553+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:48:50.552+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:48:50.568+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:48:50.568+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:48:50.608+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.335 seconds
+[2022-12-14T08:49:20.667+0000] {processor.py:154} INFO - Started process (PID=1277) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:49:20.669+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:49:20.671+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:49:20.671+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:49:21.432+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_transaction', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:49:21.714+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:49:21.714+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:49:21.762+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:49:21.762+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:49:21.774+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:49:21.774+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:49:21.782+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:49:21.781+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:49:21.812+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.149 seconds
+[2022-12-14T08:49:52.120+0000] {processor.py:154} INFO - Started process (PID=1297) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:49:52.122+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:49:52.123+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:49:52.123+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:49:52.693+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_song', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:49:52.948+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:49:52.947+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:49:53.002+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:49:53.002+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:49:53.014+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:49:53.014+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:49:53.023+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:49:53.022+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:49:53.051+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 0.936 seconds
+[2022-12-14T08:50:23.383+0000] {processor.py:154} INFO - Started process (PID=1328) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:50:23.384+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:50:23.385+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:50:23.385+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:50:23.943+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_revenue', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:50:24.270+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:50:24.269+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:50:24.305+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:50:24.305+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:50:24.313+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:50:24.313+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:50:24.320+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:50:24.320+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:50:24.348+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 0.970 seconds
+[2022-12-14T08:50:54.670+0000] {processor.py:154} INFO - Started process (PID=1348) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:50:54.671+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:50:54.673+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:50:54.673+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:50:56.250+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_transaction', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:50:56.679+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:50:56.678+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:50:56.950+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:50:56.950+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:50:57.019+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:50:57.018+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:50:57.082+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:50:57.082+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:50:57.273+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 2.609 seconds
+[2022-12-14T08:51:27.687+0000] {processor.py:154} INFO - Started process (PID=1367) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:51:27.695+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:51:27.703+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:51:27.703+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:51:31.335+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_song', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:51:31.954+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:51:31.953+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:51:32.331+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:51:32.331+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:51:32.446+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:51:32.445+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:51:32.628+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:51:32.628+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:51:33.188+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 5.518 seconds
+[2022-12-14T08:52:03.438+0000] {processor.py:154} INFO - Started process (PID=1387) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:52:03.439+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:52:03.441+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:52:03.441+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:52:04.661+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_transaction', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:52:04.759+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:52:04.758+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:52:05.106+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:52:05.105+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:52:05.130+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:52:05.130+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:52:05.146+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:52:05.146+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:52:05.193+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.759 seconds
+[2022-12-14T08:52:35.408+0000] {processor.py:154} INFO - Started process (PID=1417) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:52:35.410+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:52:35.433+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:52:35.433+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:52:37.135+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_transaction', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:52:37.519+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:52:37.518+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:52:37.592+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:52:37.592+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:52:37.602+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:52:37.602+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:52:37.615+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:52:37.614+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:52:37.714+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 2.325 seconds
+[2022-12-14T08:53:08.163+0000] {processor.py:154} INFO - Started process (PID=1437) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:53:08.166+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:53:08.167+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:53:08.167+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:53:08.935+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_song', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:53:09.253+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:53:09.252+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:53:09.377+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:53:09.376+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:53:09.394+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:53:09.393+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:53:09.405+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:53:09.404+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:53:09.441+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.283 seconds
+[2022-12-14T08:53:39.651+0000] {processor.py:154} INFO - Started process (PID=1458) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:53:39.652+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:53:39.654+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:53:39.654+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:53:40.502+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_transaction', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:53:40.762+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:53:40.762+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:53:40.809+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:53:40.809+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:53:40.822+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:53:40.822+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:53:40.832+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:53:40.832+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:53:40.878+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.232 seconds
+[2022-12-14T08:54:11.041+0000] {processor.py:154} INFO - Started process (PID=1478) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:54:11.043+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:54:11.044+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:54:11.044+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:54:11.641+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_transaction', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:54:11.874+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:54:11.874+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:54:11.918+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:54:11.917+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:54:11.928+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:54:11.928+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:54:11.934+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:54:11.934+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:54:11.959+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 0.922 seconds
+[2022-12-14T08:54:42.169+0000] {processor.py:154} INFO - Started process (PID=1498) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:54:42.178+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:54:42.184+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:54:42.184+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:54:45.762+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_revenue', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:54:45.971+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:54:45.970+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:54:46.353+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:54:46.352+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:54:46.493+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:54:46.482+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:54:46.542+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:54:46.541+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:54:46.683+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 4.521 seconds
+[2022-12-14T08:55:16.940+0000] {processor.py:154} INFO - Started process (PID=1527) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:55:16.941+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:55:16.943+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:55:16.942+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:55:17.448+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_transaction', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:55:17.504+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:55:17.503+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:55:17.683+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:55:17.683+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:55:17.693+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:55:17.692+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:55:17.699+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:55:17.699+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:55:17.725+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 0.790 seconds
+[2022-12-14T08:55:48.026+0000] {processor.py:154} INFO - Started process (PID=1547) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:55:48.027+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:55:48.029+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:55:48.029+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:55:48.706+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_transaction', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:55:48.985+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:55:48.984+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:55:49.068+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:55:49.067+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:55:49.087+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:55:49.086+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:55:49.106+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:55:49.106+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:55:49.181+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.158 seconds
+[2022-12-14T08:56:19.448+0000] {processor.py:154} INFO - Started process (PID=1567) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:56:19.451+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:56:19.461+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:56:19.460+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:56:20.858+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_revenue', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:56:21.560+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:56:21.558+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:56:21.689+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:56:21.689+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:56:21.709+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:56:21.709+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:56:21.725+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:56:21.724+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:56:21.772+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 2.332 seconds
+[2022-12-14T08:56:52.055+0000] {processor.py:154} INFO - Started process (PID=1598) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:56:52.056+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:56:52.057+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:56:52.057+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:56:53.002+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_song', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:56:53.331+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:56:53.330+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:56:53.389+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:56:53.388+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:56:53.401+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:56:53.401+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:56:53.414+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:56:53.414+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:56:53.453+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.402 seconds
+[2022-12-14T08:57:23.921+0000] {processor.py:154} INFO - Started process (PID=1619) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:57:23.925+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:57:23.927+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:57:23.927+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:57:25.449+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_transaction', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:57:25.943+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:57:25.942+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:57:26.033+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:57:26.032+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:57:26.057+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:57:26.057+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:57:26.076+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:57:26.075+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:57:26.130+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 2.221 seconds
+[2022-12-14T08:57:56.568+0000] {processor.py:154} INFO - Started process (PID=1638) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:57:56.582+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:57:56.586+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:57:56.585+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:58:00.356+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_song', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:58:00.515+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:58:00.513+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:58:00.826+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:58:00.825+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:58:00.971+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:58:00.959+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:58:01.122+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:58:01.110+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:58:01.392+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 4.857 seconds
+[2022-12-14T08:58:31.716+0000] {processor.py:154} INFO - Started process (PID=1660) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:58:31.718+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:58:31.720+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:58:31.719+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:58:32.437+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_song', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:58:32.499+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:58:32.499+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:58:32.733+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:58:32.733+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:58:32.746+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:58:32.746+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:58:32.763+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:58:32.763+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:58:32.796+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.086 seconds
+[2022-12-14T08:59:03.137+0000] {processor.py:154} INFO - Started process (PID=1689) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:59:03.140+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:59:03.144+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:59:03.143+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:59:05.036+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_song', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:59:05.619+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:59:05.617+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:59:05.715+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:59:05.715+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:59:05.740+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:59:05.739+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:59:05.783+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:59:05.773+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:59:05.868+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 2.743 seconds
+[2022-12-14T08:59:36.466+0000] {processor.py:154} INFO - Started process (PID=1709) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:59:36.470+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T08:59:36.473+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:59:36.473+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:59:39.780+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_transaction', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T08:59:40.554+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:59:40.552+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T08:59:40.753+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:59:40.753+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T08:59:40.781+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:59:40.781+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T08:59:40.797+0000] {logging_mixin.py:120} INFO - [2022-12-14T08:59:40.796+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T08:59:40.849+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 4.407 seconds
+[2022-12-14T09:00:11.586+0000] {processor.py:154} INFO - Started process (PID=1729) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:00:11.590+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:00:11.594+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:00:11.594+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:00:13.600+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_song', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:00:14.236+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:00:14.225+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:00:14.495+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:00:14.495+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:00:14.603+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:00:14.602+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:00:14.718+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:00:14.718+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:00:14.957+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 3.393 seconds
+[2022-12-14T09:00:45.369+0000] {processor.py:154} INFO - Started process (PID=1751) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:00:45.370+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:00:45.373+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:00:45.372+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:00:45.891+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_transaction', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:00:46.113+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:00:46.113+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:00:46.150+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:00:46.150+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:00:46.159+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:00:46.158+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:00:46.165+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:00:46.165+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:00:46.196+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 0.832 seconds
+[2022-12-14T09:01:16.286+0000] {processor.py:154} INFO - Started process (PID=1780) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:01:16.288+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:01:16.290+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:01:16.290+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:01:17.779+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_revenue', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:01:17.853+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:01:17.852+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:01:17.908+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:01:17.907+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:01:17.921+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:01:17.920+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:01:17.931+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:01:17.931+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:01:17.966+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.688 seconds
+[2022-12-14T09:01:48.386+0000] {processor.py:154} INFO - Started process (PID=1800) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:01:48.387+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:01:48.404+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:01:48.403+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:01:50.213+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_transaction', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:01:50.342+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:01:50.341+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:01:50.567+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:01:50.567+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:01:50.645+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:01:50.644+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:01:50.696+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:01:50.696+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:01:50.837+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 2.458 seconds
+[2022-12-14T09:02:22.892+0000] {processor.py:154} INFO - Started process (PID=1819) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:02:22.956+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:02:23.006+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:02:23.005+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:02:43.104+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_song', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:02:47.348+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:02:47.346+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:02:48.388+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:02:48.388+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:02:48.549+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:02:48.548+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:02:48.825+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:02:48.824+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:02:49.990+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 27.183 seconds
+[2022-12-14T09:03:21.628+0000] {processor.py:154} INFO - Started process (PID=1848) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:03:21.634+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:03:21.641+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:03:21.640+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:03:26.698+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_revenue', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:03:27.774+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:03:27.772+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:03:27.932+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:03:27.931+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:03:27.981+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:03:27.981+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:03:28.012+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:03:28.011+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:03:28.155+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 6.541 seconds
+[2022-12-14T09:03:59.622+0000] {processor.py:154} INFO - Started process (PID=1867) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:03:59.671+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:03:59.690+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:03:59.689+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:04:06.256+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_transaction', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:04:07.757+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:04:07.755+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:04:08.039+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:04:08.039+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:04:08.073+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:04:08.073+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:04:08.107+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:04:08.097+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:04:08.180+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 8.576 seconds
+[2022-12-14T09:04:38.444+0000] {processor.py:154} INFO - Started process (PID=1887) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:04:38.446+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:04:38.447+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:04:38.447+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:04:39.531+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_transaction', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:04:39.601+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:04:39.600+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:04:39.661+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:04:39.661+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:04:39.674+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:04:39.673+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:04:39.685+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:04:39.684+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:04:39.719+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.281 seconds
+[2022-12-14T09:05:10.246+0000] {processor.py:154} INFO - Started process (PID=1908) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:05:10.249+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:05:10.252+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:05:10.252+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:05:12.003+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_transaction', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:05:12.102+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:05:12.101+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:05:12.185+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:05:12.184+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:05:12.208+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:05:12.207+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:05:12.225+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:05:12.224+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:05:12.282+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 2.044 seconds
+[2022-12-14T09:05:43.121+0000] {processor.py:154} INFO - Started process (PID=1928) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:05:43.124+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:05:43.129+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:05:43.129+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:05:46.718+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_revenue', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:05:47.293+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:05:46.930+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:05:47.425+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:05:47.425+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:05:47.447+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:05:47.447+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:05:47.464+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:05:47.463+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:05:47.542+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 4.443 seconds
+[2022-12-14T09:06:18.201+0000] {processor.py:154} INFO - Started process (PID=1949) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:06:18.203+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:06:18.207+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:06:18.207+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:06:21.594+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_song', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:06:22.806+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:06:22.805+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:06:22.953+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:06:22.953+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:06:22.999+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:06:22.999+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:06:23.037+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:06:23.037+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:06:23.112+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 4.925 seconds
+[2022-12-14T09:06:54.075+0000] {processor.py:154} INFO - Started process (PID=1969) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:06:54.143+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:06:54.178+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:06:54.177+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:06:57.320+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_revenue', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:06:58.297+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:06:58.296+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:06:58.515+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:06:58.515+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:06:58.621+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:06:58.615+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:06:58.746+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:06:58.745+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:06:58.927+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 4.875 seconds
+[2022-12-14T09:07:29.521+0000] {processor.py:154} INFO - Started process (PID=1980) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:07:29.523+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:07:29.525+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:07:29.525+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:07:30.646+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_song', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:07:31.314+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:07:31.312+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:07:31.530+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:07:31.529+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:07:31.582+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:07:31.581+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:07:31.626+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:07:31.626+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:07:31.863+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 2.347 seconds
+[2022-12-14T09:08:02.382+0000] {processor.py:154} INFO - Started process (PID=2009) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:08:02.384+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:08:02.386+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:08:02.386+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:08:03.624+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_revenue', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:08:03.709+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:08:03.708+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:08:03.774+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:08:03.774+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:08:03.788+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:08:03.788+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:08:03.799+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:08:03.798+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:08:03.838+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.463 seconds
+[2022-12-14T09:08:34.366+0000] {processor.py:154} INFO - Started process (PID=2029) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:08:34.381+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:08:34.397+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:08:34.391+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:08:37.584+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_transaction', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:08:37.735+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:08:37.733+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:08:37.844+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:08:37.843+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:08:37.873+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:08:37.873+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:08:37.895+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:08:37.895+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:08:37.964+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 3.618 seconds
+[2022-12-14T09:09:08.267+0000] {processor.py:154} INFO - Started process (PID=2050) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:09:08.268+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:09:08.270+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:09:08.270+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:09:09.122+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_revenue', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:09:09.486+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:09:09.299+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:09:09.534+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:09:09.534+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:09:09.546+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:09:09.546+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:09:09.555+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:09:09.555+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:09:09.590+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.328 seconds
+[2022-12-14T09:09:40.284+0000] {processor.py:154} INFO - Started process (PID=2070) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:09:40.286+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:09:40.288+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:09:40.288+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:09:42.371+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_transaction', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:09:43.472+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:09:43.461+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:09:43.862+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:09:43.860+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:09:44.238+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:09:44.237+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:09:44.371+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:09:44.369+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:09:44.869+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 4.593 seconds
+[2022-12-14T09:10:15.639+0000] {processor.py:154} INFO - Started process (PID=2090) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:10:15.640+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:10:15.642+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:10:15.641+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:10:16.297+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_transaction', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:10:16.550+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:10:16.550+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:10:16.591+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:10:16.591+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:10:16.601+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:10:16.601+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:10:16.609+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:10:16.609+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:10:16.639+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.006 seconds
+[2022-12-14T09:10:46.941+0000] {processor.py:154} INFO - Started process (PID=2120) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:10:46.943+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:10:46.945+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:10:46.945+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:10:47.950+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_transaction', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:10:48.274+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:10:48.273+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:10:48.341+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:10:48.341+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:10:48.366+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:10:48.366+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:10:48.385+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:10:48.383+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:10:48.451+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.517 seconds
+[2022-12-14T09:11:19.297+0000] {processor.py:154} INFO - Started process (PID=2140) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:11:19.314+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:11:19.323+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:11:19.323+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:11:24.317+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_song', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:11:24.700+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:11:24.698+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:11:24.953+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:11:24.953+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:11:25.035+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:11:25.034+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:11:25.127+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:11:25.126+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:11:25.639+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 6.364 seconds
+[2022-12-14T09:11:56.641+0000] {processor.py:154} INFO - Started process (PID=2161) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:11:56.643+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:11:56.656+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:11:56.646+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:12:03.318+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_revenue', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:12:03.749+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:12:03.738+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:12:04.191+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:12:04.191+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:12:04.354+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:12:04.343+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:12:04.449+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:12:04.448+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:12:04.813+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 8.218 seconds
+[2022-12-14T09:12:35.366+0000] {processor.py:154} INFO - Started process (PID=2182) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:12:35.368+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:12:35.370+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:12:35.370+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:12:36.247+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_revenue', 'dag_export_transaction', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:12:36.531+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:12:36.530+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:12:36.589+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:12:36.588+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:12:36.599+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:12:36.599+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:12:36.608+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:12:36.607+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:12:36.637+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.279 seconds
+[2022-12-14T09:13:06.984+0000] {processor.py:154} INFO - Started process (PID=2213) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:13:06.985+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:13:06.987+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:13:06.987+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:13:07.722+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_revenue', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:13:07.990+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:13:07.989+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:13:08.035+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:13:08.035+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:13:08.046+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:13:08.046+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:13:08.053+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:13:08.053+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:13:08.081+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.103 seconds
+[2022-12-14T09:13:38.275+0000] {processor.py:154} INFO - Started process (PID=2234) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:13:38.277+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:13:38.278+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:13:38.278+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:13:39.452+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_transaction', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:13:39.694+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:13:39.693+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:13:39.777+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:13:39.777+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:13:39.791+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:13:39.790+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:13:39.805+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:13:39.805+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:13:39.837+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.566 seconds
+[2022-12-14T09:14:10.190+0000] {processor.py:154} INFO - Started process (PID=2265) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:14:10.192+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:14:10.194+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:14:10.194+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:14:10.986+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_revenue', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:14:11.281+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:14:11.281+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:14:11.320+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:14:11.320+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:14:11.331+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:14:11.331+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:14:11.338+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:14:11.337+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:14:11.367+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.183 seconds
+[2022-12-14T09:14:41.499+0000] {processor.py:154} INFO - Started process (PID=2295) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:14:41.501+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:14:41.502+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:14:41.502+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:14:42.776+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_revenue', 'dag_export_transaction']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:14:42.887+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:14:42.887+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:14:42.945+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:14:42.945+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:14:42.962+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:14:42.962+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:14:42.972+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:14:42.971+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:14:43.009+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.516 seconds
+[2022-12-14T09:15:13.367+0000] {processor.py:154} INFO - Started process (PID=2315) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:15:13.369+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:15:13.371+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:15:13.371+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:15:14.319+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_transaction', 'dag_export_revenue', 'dag_export_song']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:15:14.396+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:15:14.395+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:15:14.464+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:15:14.464+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:15:14.483+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:15:14.483+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:15:14.494+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:15:14.494+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:15:14.525+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 1.162 seconds
+[2022-12-14T09:15:44.690+0000] {processor.py:154} INFO - Started process (PID=2341) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:15:44.692+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:15:44.693+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:15:44.693+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:15:46.820+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_transaction', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:15:46.952+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:15:46.951+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:15:47.026+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:15:47.025+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:15:47.043+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:15:47.043+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:15:47.058+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:15:47.057+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:15:47.099+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 2.415 seconds
+[2022-12-14T09:16:17.415+0000] {processor.py:154} INFO - Started process (PID=2362) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:16:17.417+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:16:17.419+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:16:17.418+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:16:19.795+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_transaction', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:16:20.920+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:16:20.919+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:16:21.239+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:16:21.238+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:16:21.306+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:16:21.305+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:16:21.371+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:16:21.371+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:16:21.595+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 4.195 seconds
+[2022-12-14T09:16:52.575+0000] {processor.py:154} INFO - Started process (PID=2381) to work on /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:16:52.576+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_export_data.py for tasks to queue
+[2022-12-14T09:16:52.577+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:16:52.577+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:16:53.096+0000] {processor.py:766} INFO - DAG(s) dict_keys(['dag_export_song', 'dag_export_transaction', 'dag_export_revenue']) retrieved from /opt/airflow/dags/dag_export_data.py
+[2022-12-14T09:16:53.325+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:16:53.324+0000] {dag.py:2585} INFO - Sync 3 DAGs
+[2022-12-14T09:16:53.360+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:16:53.360+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_revenue to 2022-12-14T00:00:00+00:00, run_after=2022-12-15T00:00:00+00:00
+[2022-12-14T09:16:53.368+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:16:53.368+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_song to 2022-12-14T00:00:00+00:00, run_after=2022-12-17T00:00:00+00:00
+[2022-12-14T09:16:53.375+0000] {logging_mixin.py:120} INFO - [2022-12-14T09:16:53.375+0000] {dag.py:3340} INFO - Setting next_dagrun for dag_export_transaction to 2022-12-14T08:00:00+00:00, run_after=2022-12-14T11:00:00+00:00
+[2022-12-14T09:16:53.404+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_export_data.py took 0.833 seconds

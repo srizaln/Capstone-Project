@@ -1,0 +1,234 @@
+ArtistName,GenreName,Jumlah
+U2,Pop,23
+Various Artists,Pop,14
+Amy Winehouse,Pop,11
+Miles Davis,Jazz,37
+Gene Krupa,Jazz,22
+Spyro Gyra,Jazz,21
+Antï¿½nio Carlos Jobim,Jazz,14
+Incognito,Jazz,13
+Dennis Chambers,Jazz,9
+Billy Cobham,Jazz,8
+Gilberto Gil,Jazz,3
+Aisha Duo,Jazz,2
+Aaron Goldberg,Jazz,1
+Led Zeppelin,Rock,114
+U2,Rock,112
+Deep Purple,Rock,92
+Iron Maiden,Rock,81
+Pearl Jam,Rock,54
+Van Halen,Rock,52
+Queen,Rock,45
+The Rolling Stones,Rock,41
+Creedence Clearwater Revival,Rock,40
+Kiss,Rock,35
+Foo Fighters,Rock,33
+Red Hot Chili Peppers,Rock,31
+The Cult,Rock,30
+Lenny Kravitz,Rock,30
+Nirvana,Rock,29
+Guns N' Roses,Rock,28
+Santana,Rock,27
+Skank,Rock,23
+The Who,Rock,20
+AC/DC,Rock,18
+Ozzy Osbourne,Rock,18
+Jimi Hendrix,Rock,17
+Soundgarden,Rock,17
+Def Leppard,Rock,16
+Aerosmith,Rock,15
+Faith No More,Rock,15
+O Terï¿½o,Rock,15
+Audioslave,Rock,14
+R.E.M.,Rock,14
+Raul Seixas,Rock,14
+Rush,Rock,14
+The Police,Rock,14
+Alanis Morissette,Rock,13
+Velvet Revolver,Rock,13
+Alice In Chains,Rock,12
+David Coverdale,Rock,12
+Page & Plant,Rock,12
+Stone Temple Pilots,Rock,12
+Scorpions,Rock,12
+The Doors,Rock,11
+Jamiroquai,Rock,10
+Joe Satriani,Rock,10
+Marillion,Rock,10
+Men At Work,Rock,10
+Paul D'Ianno,Rock,10
+Frank Zappa & Captain Beefheart,Rock,9
+Pink Floyd,Rock,9
+"Terry Bozzio, Tony Levin & Steve Stevens",Rock,7
+Accept,Rock,4
+The Posies,Rock,2
+Dread Zeppelin,Rock,1
+Eric Clapton,Blues,32
+The Black Crowes,Blues,19
+Buddy Guy,Blues,11
+Stevie Ray Vaughan & Double Trouble,Blues,10
+Iron Maiden,Blues,9
+Lost,Drama,44
+Heroes,Drama,20
+Os Paralamas Do Sucesso,Latin,49
+Chico Science & Naï¿½ï¿½o Zumbi,Latin,36
+Chico Buarque,Latin,34
+Legiï¿½o Urbana,Latin,31
+Cï¿½ssia Eller,Latin,30
+Tim Maia,Latin,30
+Various Artists,Latin,28
+Lulu Santos,Latin,28
+Djavan,Latin,26
+Milton Nascimento,Latin,26
+Caetano Veloso,Latin,21
+Zeca Pagodinho,Latin,19
+Marisa Monte,Latin,18
+Marcos Valle,Latin,17
+Antï¿½nio Carlos Jobim,Latin,17
+Funk Como Le Gusta,Latin,16
+Eric Clapton,Latin,16
+Gilberto Gil,Latin,15
+Vinï¿½cius De Moraes,Latin,15
+Gonzaguinha,Latin,14
+Ed Motta,Latin,14
+Elis Regina,Latin,14
+Falamansa,Latin,14
+Jorge Ben,Latin,14
+Olodum,Latin,14
+Jota Quest,Latin,12
+Clï¿½udio Zoli,Latin,10
+Luciana Souza/Romero Lubambo,Latin,1
+Metallica,Metal,112
+Iron Maiden,Metal,95
+Black Label Society,Metal,18
+Black Sabbath,Metal,17
+Mï¿½tley Crï¿½e,Metal,17
+Judas Priest,Metal,16
+Motï¿½rhead,Metal,15
+Guns N' Roses,Metal,14
+Ozzy Osbourne,Metal,14
+Lenny Kravitz,Metal,14
+Godsmack,Metal,12
+Bruce Dickinson,Metal,11
+System Of A Down,Metal,11
+Apocalyptica,Metal,8
+"Sir Georg Solti, Sumi Jo & Wiener Philharmoniker",Opera,1
+Joï¿½o Suplicy,World,14
+Mï¿½nica Marianno,World,12
+Habib Koitï¿½ and Bamada,World,2
+The Office,Comedy,17
+Cidade Negra,Reggae,31
+UB40,Reggae,14
+Lenny Kravitz,Reggae,13
+James Brown,R&B/Soul,20
+Marvin Gaye,R&B/Soul,18
+Amy Winehouse,R&B/Soul,12
+Jamiroquai,R&B/Soul,11
+Lost,TV Shows,48
+The Office,TV Shows,36
+Battlestar Galactica,TV Shows,5
+Heroes,TV Shows,3
+Aquaman,TV Shows,1
+Eugene Ormandy,Classical,3
+Berliner Philharmoniker & Herbert Von Karajan,Classical,3
+English Concert & Trevor Pinnock,Classical,2
+Academy of St. Martin in the Fields & Sir Neville Marriner,Classical,2
+Michael Tilson Thomas & San Francisco Symphony,Classical,2
+The King's Singers,Classical,2
+Nicolaus Esterhazy Sinfonia,Classical,1
+Alberto Turco & Nova Schola Gregoriana,Classical,1
+"Richard Marlow & The Choir of Trinity College, Cambridge",Classical,1
+"Anne-Sophie Mutter, Herbert Von Karajan & Wiener Philharmoniker",Classical,1
+"Hilary Hahn, Jeffrey Kahane, Los Angeles Chamber Orchestra & Margaret Batjer",Classical,1
+Wilhelm Kempff,Classical,1
+Yo-Yo Ma,Classical,1
+Scholars Baroque Ensemble,Classical,1
+Academy of St. Martin in the Fields Chamber Ensemble & Sir Neville Marriner,Classical,1
+"Berliner Philharmoniker, Claudio Abbado & Sabine Meyer",Classical,1
+Royal Philharmonic Orchestra & Sir Thomas Beecham,Classical,1
+Orchestre Rï¿½volutionnaire et Romantique & John Eliot Gardiner,Classical,1
+"Britten Sinfonia, Ivor Bolton & Lesley Garrett",Classical,1
+"Chicago Symphony Chorus, Chicago Symphony Orchestra & Sir Georg Solti",Classical,1
+Sir Georg Solti & Wiener Philharmoniker,Classical,1
+"Academy of St. Martin in the Fields, John Birch, Sir Neville Marriner & Sylvia McNair",Classical,1
+London Symphony Orchestra & Sir Charles Mackerras,Classical,1
+Barry Wordsworth & BBC Concert Orchestra,Classical,1
+"Herbert Von Karajan, Mirella Freni & Wiener Philharmoniker",Classical,1
+Luciano Pavarotti,Classical,1
+Leonard Bernstein & New York Philharmonic,Classical,1
+Boston Symphony Orchestra & Seiji Ozawa,Classical,1
+Aaron Copland & London Symphony Orchestra,Classical,1
+Ton Koopman,Classical,1
+Sergei Prokofiev & Yuri Temirkanov,Classical,1
+Chicago Symphony Orchestra & Fritz Reiner,Classical,1
+Orchestra of The Age of Enlightenment,Classical,1
+"Emanuel Ax, Eugene Ormandy & Philadelphia Orchestra",Classical,1
+James Levine,Classical,1
+Berliner Philharmoniker & Hans Rosbaud,Classical,1
+Maurizio Pollini,Classical,1
+Gustav Mahler,Classical,1
+"Felix Schmidt, London Symphony Orchestra & Rafael Frï¿½hbeck de Burgos",Classical,1
+Edo de Waart & San Francisco Symphony,Classical,1
+Antal Dorï¿½ti & London Symphony Orchestra,Classical,1
+Choir Of Westminster Abbey & Simon Preston,Classical,1
+"Chor der Wiener Staatsoper, Herbert Von Karajan & Wiener Philharmoniker",Classical,1
+Christopher O'Riley,Classical,1
+Fretwork,Classical,1
+Otto Klemperer & Philharmonia Orchestra,Classical,1
+Yehudi Menuhin,Classical,1
+Philharmonia Orchestra & Sir Neville Marriner,Classical,1
+"Academy of St. Martin in the Fields, Sir Neville Marriner & Thurston Dart",Classical,1
+Les Arts Florissants & William Christie,Classical,1
+The 12 Cellists of The Berlin Philharmonic,Classical,1
+Adrian Leaper & Doreen de Feis,Classical,1
+"Roger Norrington, London Classical Players",Classical,1
+Charles Dutoit & L'Orchestre Symphonique de Montrï¿½al,Classical,1
+"Equale Brass Ensemble, John Eliot Gardiner & Munich Monteverdi Orchestra and Choir",Classical,1
+Kent Nagano and Orchestre de l'Opï¿½ra de Lyon,Classical,1
+Julian Bream,Classical,1
+Martin Roscoe,Classical,1
+Gï¿½teborgs Symfoniker & Neeme Jï¿½rvi,Classical,1
+Itzhak Perlman,Classical,1
+Michele Campanella,Classical,1
+Gerald Moore,Classical,1
+"Mela Tenenbaum, Pro Musica Prague & Richard Kapp",Classical,1
+Emerson String Quartet,Classical,1
+"C. Monteverdi, Nigel Rogers - Chiaroscuro; London Baroque; London Cornett & Sackbu",Classical,1
+Nash Ensemble,Classical,1
+Toquinho & Vinï¿½cius,Bossa Nova,15
+Various Artists,Soundtrack,14
+Gilberto Gil,Soundtrack,14
+Passengers,Soundtrack,14
+Philip Glass Ensemble,Soundtrack,1
+Chris Cornell,Alternative,14
+Audioslave,Alternative,14
+Temple of the Dog,Alternative,10
+Cake,Alternative,1
+Calexico,Alternative,1
+Iron Maiden,Heavy Metal,28
+House Of Pain,Hip Hop/Rap,19
+Planet Hemp,Hip Hop/Rap,16
+BackBeat,Rock And Roll,12
+Frank Sinatra,Easy Listening,24
+Battlestar Galactica,Science Fiction,13
+Battlestar Galactica (Classic),Sci Fi & Fantasy,24
+Battlestar Galactica,Sci Fi & Fantasy,2
+O Rappa,Electronica/Dance,17
+Jamiroquai,Electronica/Dance,11
+Karsh Kale,Electronica/Dance,2
+Titï¿½s,Alternative & Punk,38
+Faith No More,Alternative & Punk,37
+Green Day,Alternative & Punk,34
+Smashing Pumpkins,Alternative & Punk,34
+R.E.M.,Alternative & Punk,27
+The Tea Party,Alternative & Punk,26
+The Clash,Alternative & Punk,18
+Body Count,Alternative & Punk,17
+Red Hot Chili Peppers,Alternative & Punk,17
+Os Mutantes,Alternative & Punk,14
+JET,Alternative & Punk,13
+Pearl Jam,Alternative & Punk,13
+Audioslave,Alternative & Punk,12
+Foo Fighters,Alternative & Punk,11
+R.E.M. Feat. Kate Pearson,Alternative & Punk,11
+Raimundos,Alternative & Punk,10

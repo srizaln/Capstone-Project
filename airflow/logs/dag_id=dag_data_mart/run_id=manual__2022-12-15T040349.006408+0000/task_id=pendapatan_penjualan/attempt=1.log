@@ -1,0 +1,36 @@
+[2022-12-15T04:04:16.389+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: dag_data_mart.pendapatan_penjualan manual__2022-12-15T04:03:49.006408+00:00 [queued]>
+[2022-12-15T04:04:16.454+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: dag_data_mart.pendapatan_penjualan manual__2022-12-15T04:03:49.006408+00:00 [queued]>
+[2022-12-15T04:04:16.455+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-15T04:04:16.457+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-12-15T04:04:16.458+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-15T04:04:16.534+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): pendapatan_penjualan> on 2022-12-15 04:03:49.006408+00:00
+[2022-12-15T04:04:16.603+0000] {standard_task_runner.py:55} INFO - Started process 5338 to run task
+[2022-12-15T04:04:16.635+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'dag_data_mart', 'pendapatan_penjualan', 'manual__2022-12-15T04:03:49.006408+00:00', '--job-id', '550', '--raw', '--subdir', 'DAGS_FOLDER/dag_data_mart.py', '--cfg-path', '/tmp/tmptbk73it_']
+[2022-12-15T04:04:16.670+0000] {standard_task_runner.py:83} INFO - Job 550: Subtask pendapatan_penjualan
+[2022-12-15T04:04:17.046+0000] {task_command.py:376} INFO - Running <TaskInstance: dag_data_mart.pendapatan_penjualan manual__2022-12-15T04:03:49.006408+00:00 [running]> on host 0d7510ca55af
+[2022-12-15T04:04:18.589+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dag_data_mart
+AIRFLOW_CTX_TASK_ID=pendapatan_penjualan
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-15T04:03:49.006408+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-15T04:03:49.006408+00:00
+[2022-12-15T04:06:00.350+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/plugins/data_mart.py", line 32, in pendapatan_penjualan
+    make_data(query, 'pendapatan_penjualan')
+  File "/opt/airflow/plugins/data_mart.py", line 15, in make_data
+    job = pandas_gbq.to_gbq(data, table_id, project_id='cde2022-370103')
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas_gbq/gbq.py", line 1168, in to_gbq
+    "Could not create the table because it "
+pandas_gbq.gbq.TableCreationError: Could not create the table because it already exists. Change the if_exists parameter to 'append' or 'replace' data.
+[2022-12-15T04:06:01.107+0000] {taskinstance.py:1406} INFO - Marking task as FAILED. dag_id=dag_data_mart, task_id=pendapatan_penjualan, execution_date=20221215T040349, start_date=20221215T040416, end_date=20221215T040601
+[2022-12-15T04:06:01.863+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 550 for task pendapatan_penjualan (Could not create the table because it already exists. Change the if_exists parameter to 'append' or 'replace' data.; 5338)
+[2022-12-15T04:06:02.542+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2022-12-15T04:06:03.451+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

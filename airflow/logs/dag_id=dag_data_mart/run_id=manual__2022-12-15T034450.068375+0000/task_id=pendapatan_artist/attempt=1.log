@@ -1,0 +1,38 @@
+[2022-12-15T03:45:02.947+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: dag_data_mart.pendapatan_artist manual__2022-12-15T03:44:50.068375+00:00 [queued]>
+[2022-12-15T03:45:02.992+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: dag_data_mart.pendapatan_artist manual__2022-12-15T03:44:50.068375+00:00 [queued]>
+[2022-12-15T03:45:02.993+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-15T03:45:02.994+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-12-15T03:45:02.995+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-15T03:45:03.063+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): pendapatan_artist> on 2022-12-15 03:44:50.068375+00:00
+[2022-12-15T03:45:03.079+0000] {standard_task_runner.py:55} INFO - Started process 4569 to run task
+[2022-12-15T03:45:03.088+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'dag_data_mart', 'pendapatan_artist', 'manual__2022-12-15T03:44:50.068375+00:00', '--job-id', '545', '--raw', '--subdir', 'DAGS_FOLDER/dag_data_mart.py', '--cfg-path', '/tmp/tmpcq2k16f5']
+[2022-12-15T03:45:03.094+0000] {standard_task_runner.py:83} INFO - Job 545: Subtask pendapatan_artist
+[2022-12-15T03:45:03.324+0000] {task_command.py:376} INFO - Running <TaskInstance: dag_data_mart.pendapatan_artist manual__2022-12-15T03:44:50.068375+00:00 [running]> on host 0d7510ca55af
+[2022-12-15T03:45:03.757+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dag_data_mart
+AIRFLOW_CTX_TASK_ID=pendapatan_artist
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-15T03:44:50.068375+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-15T03:44:50.068375+00:00
+[2022-12-15T03:45:23.870+0000] {logging_mixin.py:120} INFO -                                      ArtistName  Penjualan     Pendapatan
+0                                   Iron Maiden        140  138.600000000
+1                                            U2        107  105.930000000
+2                                     Metallica         91   90.090000000
+3                                  Led Zeppelin         87   86.130000000
+4                                          Lost         41   81.590000000
+..                                          ...        ...            ...
+160  Antal Dorï¿½ti & London Symphony Orchestra          1    0.990000000
+161                          The King's Singers          1    0.990000000
+162                                    Calexico          1    0.990000000
+163     Otto Klemperer & Philharmonia Orchestra          1    0.990000000
+164                              Yehudi Menuhin          1    0.990000000
+
+[165 rows x 3 columns]
+[2022-12-15T03:45:23.900+0000] {logging_mixin.py:120} INFO - Loaded 165 rows and 3 columns to cde2022-370103.datamart.pendapatan_artist
+[2022-12-15T03:45:23.915+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-12-15T03:45:24.095+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=dag_data_mart, task_id=pendapatan_artist, execution_date=20221215T034450, start_date=20221215T034502, end_date=20221215T034524
+[2022-12-15T03:45:24.338+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-12-15T03:45:24.565+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

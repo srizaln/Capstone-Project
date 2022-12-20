@@ -1,0 +1,38 @@
+[2022-12-15T03:45:03.162+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: dag_data_mart.pendapatan_penjualan manual__2022-12-15T03:44:50.068375+00:00 [queued]>
+[2022-12-15T03:45:03.216+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: dag_data_mart.pendapatan_penjualan manual__2022-12-15T03:44:50.068375+00:00 [queued]>
+[2022-12-15T03:45:03.217+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-15T03:45:03.218+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-12-15T03:45:03.219+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-15T03:45:03.305+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): pendapatan_penjualan> on 2022-12-15 03:44:50.068375+00:00
+[2022-12-15T03:45:03.359+0000] {standard_task_runner.py:55} INFO - Started process 4572 to run task
+[2022-12-15T03:45:03.380+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'dag_data_mart', 'pendapatan_penjualan', 'manual__2022-12-15T03:44:50.068375+00:00', '--job-id', '546', '--raw', '--subdir', 'DAGS_FOLDER/dag_data_mart.py', '--cfg-path', '/tmp/tmpm2pygsep']
+[2022-12-15T03:45:03.388+0000] {standard_task_runner.py:83} INFO - Job 546: Subtask pendapatan_penjualan
+[2022-12-15T03:45:03.755+0000] {task_command.py:376} INFO - Running <TaskInstance: dag_data_mart.pendapatan_penjualan manual__2022-12-15T03:44:50.068375+00:00 [running]> on host 0d7510ca55af
+[2022-12-15T03:45:04.227+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dag_data_mart
+AIRFLOW_CTX_TASK_ID=pendapatan_penjualan
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-15T03:44:50.068375+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-15T03:44:50.068375+00:00
+[2022-12-15T03:45:26.142+0000] {logging_mixin.py:120} INFO -                       Tanggal         Total
+0   2011-07-22 00:00:00+00:00   5.940000000
+1   2009-01-02 00:00:00+00:00   3.960000000
+2   2009-01-03 00:00:00+00:00   5.940000000
+3   2010-04-13 00:00:00+00:00   5.940000000
+4   2010-04-16 00:00:00+00:00   8.910000000
+..                        ...           ...
+349 2012-09-27 00:00:00+00:00   7.960000000
+350 2012-09-28 00:00:00+00:00  11.940000000
+351 2013-12-22 00:00:00+00:00   1.990000000
+352 2010-02-26 00:00:00+00:00   1.990000000
+353 2011-06-20 00:00:00+00:00   7.960000000
+
+[354 rows x 2 columns]
+[2022-12-15T03:45:26.145+0000] {logging_mixin.py:120} INFO - Loaded 354 rows and 2 columns to cde2022-370103.datamart.pendapatan_penjualan
+[2022-12-15T03:45:26.169+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-12-15T03:45:26.360+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=dag_data_mart, task_id=pendapatan_penjualan, execution_date=20221215T034450, start_date=20221215T034503, end_date=20221215T034526
+[2022-12-15T03:45:26.691+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-12-15T03:45:27.171+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

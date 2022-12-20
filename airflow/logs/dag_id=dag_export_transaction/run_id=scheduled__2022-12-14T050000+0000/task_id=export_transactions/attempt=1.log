@@ -1,0 +1,24 @@
+[2022-12-14T08:23:44.841+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: dag_export_transaction.export_transactions scheduled__2022-12-14T05:00:00+00:00 [queued]>
+[2022-12-14T08:23:44.863+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: dag_export_transaction.export_transactions scheduled__2022-12-14T05:00:00+00:00 [queued]>
+[2022-12-14T08:23:44.864+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-14T08:23:44.865+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-12-14T08:23:44.865+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-14T08:23:44.903+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): export_transactions> on 2022-12-14 05:00:00+00:00
+[2022-12-14T08:23:44.912+0000] {standard_task_runner.py:55} INFO - Started process 156 to run task
+[2022-12-14T08:23:44.918+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'dag_export_transaction', 'export_transactions', 'scheduled__2022-12-14T05:00:00+00:00', '--job-id', '507', '--raw', '--subdir', 'DAGS_FOLDER/dag_export_data.py', '--cfg-path', '/tmp/tmpgzn8y4pc']
+[2022-12-14T08:23:44.921+0000] {standard_task_runner.py:83} INFO - Job 507: Subtask export_transactions
+[2022-12-14T08:23:45.211+0000] {task_command.py:376} INFO - Running <TaskInstance: dag_export_transaction.export_transactions scheduled__2022-12-14T05:00:00+00:00 [running]> on host 0d7510ca55af
+[2022-12-14T08:23:45.844+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dag_export_transaction
+AIRFLOW_CTX_TASK_ID=export_transactions
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-14T05:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-14T05:00:00+00:00
+[2022-12-14T08:23:51.598+0000] {logging_mixin.py:120} INFO - Loaded 2240 rows and 12 columns to cde2022-370103.tugasakhir.transactions
+[2022-12-14T08:23:51.599+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-12-14T08:23:51.622+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=dag_export_transaction, task_id=export_transactions, execution_date=20221214T050000, start_date=20221214T082344, end_date=20221214T082351
+[2022-12-14T08:23:51.707+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-12-14T08:23:51.778+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

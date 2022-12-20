@@ -1,0 +1,501 @@
+ArtistId,ArtistName,TitleAlbum,TrackName,TotalPrice,InvoiceLineId,InvoiceId,InvoiceDate
+256,Philharmonia Orchestra & Sir Neville Marriner,Mendelssohn: A Midsummer Night's Dream,"A Midsummer Night's Dream, Op.61 Incidental Music: No.7 Notturno",0.99,1149,213,7/22/2011 0:00:00
+1,AC/DC,For Those About To Rock We Salute You,Put The Finger On You,0.99,3,2,1/2/2009 0:00:00
+1,AC/DC,For Those About To Rock We Salute You,Inject The Venom,0.99,4,2,1/2/2009 0:00:00
+1,AC/DC,For Those About To Rock We Salute You,Evil Walks,0.99,5,2,1/2/2009 0:00:00
+1,AC/DC,For Those About To Rock We Salute You,Breaking The Rules,0.99,6,2,1/2/2009 0:00:00
+1,AC/DC,Let There Be Rock,Dog Eat Dog,0.99,7,3,1/3/2009 0:00:00
+1,AC/DC,Let There Be Rock,Overdose,0.99,8,3,1/3/2009 0:00:00
+1,AC/DC,For Those About To Rock We Salute You,For Those About To Rock (We Salute You),0.99,579,108,4/13/2010 0:00:00
+1,AC/DC,For Those About To Rock We Salute You,Snowballed,0.99,581,108,4/13/2010 0:00:00
+1,AC/DC,For Those About To Rock We Salute You,Night Of The Long Knives,0.99,582,108,4/13/2010 0:00:00
+1,AC/DC,Let There Be Rock,Problem Child,0.99,583,109,4/16/2010 0:00:00
+1,AC/DC,For Those About To Rock We Salute You,Inject The Venom,0.99,1155,214,7/25/2011 0:00:00
+1,AC/DC,For Those About To Rock We Salute You,Spellbound,0.99,1156,214,7/25/2011 0:00:00
+1,AC/DC,Let There Be Rock,Overdose,0.99,1157,214,7/25/2011 0:00:00
+1,AC/DC,For Those About To Rock We Salute You,Snowballed,0.99,1729,319,11/1/2012 0:00:00
+1,AC/DC,Let There Be Rock,Go Down,0.99,1730,319,11/1/2012 0:00:00
+1,AC/DC,Let There Be Rock,Hell Ain't A Bad Place To Be,0.99,1731,319,11/1/2012 0:00:00
+257,"Academy of St. Martin in the Fields, Sir Neville Marriner & Thurston Dart",Bach: Orchestral Suites Nos. 1 - 4,"Suite No. 3 in D, BWV 1068: III. Gavotte I & II",0.99,571,106,4/11/2010 0:00:00
+257,"Academy of St. Martin in the Fields, Sir Neville Marriner & Thurston Dart",Bach: Orchestral Suites Nos. 1 - 4,"Suite No. 3 in D, BWV 1068: III. Gavotte I & II",0.99,1724,319,11/1/2012 0:00:00
+2,Accept,Balls to the Wall,Balls to the Wall,0.99,1,1,1/1/2009 0:00:00
+2,Accept,Restless and Wild,Restless and Wild,0.99,2,1,1/1/2009 0:00:00
+2,Accept,Restless and Wild,Princess of the Dawn,0.99,580,108,4/13/2010 0:00:00
+2,Accept,Balls to the Wall,Balls to the Wall,0.99,1154,214,7/25/2011 0:00:00
+2,Accept,Restless and Wild,Fast As a Shark,0.99,1728,319,11/1/2012 0:00:00
+3,Aerosmith,Big Ones,Love In An Elevator,0.99,9,3,1/3/2009 0:00:00
+3,Aerosmith,Big Ones,Janie's Got A Gun,0.99,10,3,1/3/2009 0:00:00
+3,Aerosmith,Big Ones,Deuces Are Wild,0.99,11,3,1/3/2009 0:00:00
+3,Aerosmith,Big Ones,Angel,0.99,12,3,1/3/2009 0:00:00
+3,Aerosmith,Big Ones,Rag Doll,0.99,584,109,4/16/2010 0:00:00
+3,Aerosmith,Big Ones,Blind Man,0.99,585,109,4/16/2010 0:00:00
+3,Aerosmith,Big Ones,Livin' On The Edge,0.99,586,109,4/16/2010 0:00:00
+3,Aerosmith,Big Ones,What It Takes,0.99,1158,214,7/25/2011 0:00:00
+3,Aerosmith,Big Ones,Deuces Are Wild,0.99,1159,214,7/25/2011 0:00:00
+3,Aerosmith,Big Ones,Amazing,0.99,1732,320,11/6/2012 0:00:00
+259,The 12 Cellists of The Berlin Philharmonic,South American Getaway,Adios nonino,0.99,572,106,4/11/2010 0:00:00
+4,Alanis Morissette,Jagged Little Pill,Right Through You,0.99,13,4,1/6/2009 0:00:00
+4,Alanis Morissette,Jagged Little Pill,Not The Doctor,0.99,14,4,1/6/2009 0:00:00
+4,Alanis Morissette,Jagged Little Pill,Forgiven,0.99,587,109,4/16/2010 0:00:00
+4,Alanis Morissette,Jagged Little Pill,Wake Up,0.99,588,109,4/16/2010 0:00:00
+4,Alanis Morissette,Jagged Little Pill,All I Really Want,0.99,1160,214,7/25/2011 0:00:00
+4,Alanis Morissette,Jagged Little Pill,You Learn,0.99,1161,214,7/25/2011 0:00:00
+4,Alanis Morissette,Jagged Little Pill,You Oughta Know,0.99,1733,320,11/6/2012 0:00:00
+4,Alanis Morissette,Jagged Little Pill,Not The Doctor,0.99,1734,320,11/6/2012 0:00:00
+260,Adrian Leaper & Doreen de Feis,Gï¿½recki: Symphony No. 3,"Symphony No. 3 Op. 36 for Orchestra and Soprano ""Symfonia Piesni Zalosnych"" \ Lento E Largo - Tranquillissimo",0.99,1150,213,7/22/2011 0:00:00
+5,Alice In Chains,Facelift,Bleed The Freak,0.99,15,4,1/6/2009 0:00:00
+5,Alice In Chains,Facelift,Confusion,0.99,16,4,1/6/2009 0:00:00
+5,Alice In Chains,Facelift,I Can't Remember,0.99,589,109,4/16/2010 0:00:00
+5,Alice In Chains,Facelift,I Know Somethin (Bout You),0.99,590,109,4/16/2010 0:00:00
+5,Alice In Chains,Facelift,Sea Of Sorrow,0.99,1162,215,7/30/2011 0:00:00
+5,Alice In Chains,Facelift,Real Thing,0.99,1163,215,7/30/2011 0:00:00
+5,Alice In Chains,Facelift,It Ain't Like That,0.99,1735,320,11/6/2012 0:00:00
+261,"Roger Norrington, London Classical Players",Purcell: The Fairy Queen,"Act IV, Symphony",0.99,573,107,4/12/2010 0:00:00
+6,Antï¿½nio Carlos Jobim,Warner 25 Anos,Por Causa De Vocï¿½,0.99,17,4,1/6/2009 0:00:00
+6,Antï¿½nio Carlos Jobim,Warner 25 Anos,Angela,0.99,18,4,1/6/2009 0:00:00
+6,Antï¿½nio Carlos Jobim,Chill: Brazil (Disc 2),Tanto Tempo,0.99,67,12,2/11/2009 0:00:00
+6,Antï¿½nio Carlos Jobim,Chill: Brazil (Disc 2),Bumbo Da Mangueira,0.99,68,12,2/11/2009 0:00:00
+6,Antï¿½nio Carlos Jobim,Warner 25 Anos,Ligia,0.99,591,109,4/16/2010 0:00:00
+6,Antï¿½nio Carlos Jobim,Warner 25 Anos,"Canta, Canta Mais",0.99,592,110,4/21/2010 0:00:00
+6,Antï¿½nio Carlos Jobim,Chill: Brazil (Disc 2),Only A Dream In Rio,0.99,640,117,5/22/2010 0:00:00
+6,Antï¿½nio Carlos Jobim,Chill: Brazil (Disc 2),Sï¿½ Tinha De Ser Com Vocï¿½,0.99,641,117,5/22/2010 0:00:00
+6,Antï¿½nio Carlos Jobim,Warner 25 Anos,Falando De Amor,0.99,1164,215,7/30/2011 0:00:00
+6,Antï¿½nio Carlos Jobim,Chill: Brazil (Disc 2),Tarde Em Itapoï¿½,0.99,1212,222,8/30/2011 0:00:00
+6,Antï¿½nio Carlos Jobim,Chill: Brazil (Disc 2),Um Jantar Pra Dois,0.99,1213,222,8/30/2011 0:00:00
+6,Antï¿½nio Carlos Jobim,Warner 25 Anos,Por Causa De Vocï¿½,0.99,1736,320,11/6/2012 0:00:00
+6,Antï¿½nio Carlos Jobim,Warner 25 Anos,O Boto (Bï¿½to),0.99,1737,320,11/6/2012 0:00:00
+6,Antï¿½nio Carlos Jobim,Chill: Brazil (Disc 2),Tarde Em Itapoï¿½,0.99,1784,328,12/15/2012 0:00:00
+6,Antï¿½nio Carlos Jobim,Chill: Brazil (Disc 2),Tanto Tempo,0.99,1785,329,12/28/2012 0:00:00
+6,Antï¿½nio Carlos Jobim,Chill: Brazil (Disc 2),Eu Vim Da Bahia - Live,0.99,1786,329,12/28/2012 0:00:00
+6,Antï¿½nio Carlos Jobim,Chill: Brazil (Disc 2),Linha Do Horizonte,0.99,1787,330,12/28/2012 0:00:00
+6,Antï¿½nio Carlos Jobim,Chill: Brazil (Disc 2),Abrir A Porta,0.99,1788,330,12/28/2012 0:00:00
+6,Antï¿½nio Carlos Jobim,Chill: Brazil (Disc 2),Momentos Que Marcam,0.99,1789,331,12/29/2012 0:00:00
+6,Antï¿½nio Carlos Jobim,Chill: Brazil (Disc 2),Bumbo Da Mangueira,0.99,1790,331,12/29/2012 0:00:00
+6,Antï¿½nio Carlos Jobim,Chill: Brazil (Disc 2),Santo Antonio,0.99,1791,331,12/29/2012 0:00:00
+6,Antï¿½nio Carlos Jobim,Chill: Brazil (Disc 2),Sï¿½ Tinha De Ser Com Vocï¿½,0.99,1792,331,12/29/2012 0:00:00
+7,Apocalyptica,Plays Metallica By Four Cellos,Master Of Puppets,0.99,19,4,1/6/2009 0:00:00
+7,Apocalyptica,Plays Metallica By Four Cellos,Welcome Home (Sanitarium),0.99,20,4,1/6/2009 0:00:00
+7,Apocalyptica,Plays Metallica By Four Cellos,The Unforgiven,0.99,1165,215,7/30/2011 0:00:00
+7,Apocalyptica,Plays Metallica By Four Cellos,Welcome Home (Sanitarium),0.99,1738,320,11/6/2012 0:00:00
+263,"Equale Brass Ensemble, John Eliot Gardiner & Munich Monteverdi Orchestra and Choir",Purcell: Music for the Queen Mary,"Music for the Funeral of Queen Mary: VI. ""Thou Knowest, Lord, the Secrets of Our Hearts""",0.99,574,107,4/12/2010 0:00:00
+263,"Equale Brass Ensemble, John Eliot Gardiner & Munich Monteverdi Orchestra and Choir",Purcell: Music for the Queen Mary,"Music for the Funeral of Queen Mary: VI. ""Thou Knowest, Lord, the Secrets of Our Hearts""",0.99,1725,319,11/1/2012 0:00:00
+8,Audioslave,Audioslave,Set It Off,0.99,21,4,1/6/2009 0:00:00
+8,Audioslave,Out Of Exile,Your Time Has Come,0.99,22,5,1/11/2009 0:00:00
+8,Audioslave,Out Of Exile,Dandelion,0.99,23,5,1/11/2009 0:00:00
+8,Audioslave,Revelations,Until We Fall,0.99,559,103,3/21/2010 0:00:00
+8,Audioslave,Revelations,Show Me How to Live (Live at the Quart Festival),0.99,560,103,3/21/2010 0:00:00
+8,Audioslave,Audioslave,Cochise,0.99,593,110,4/21/2010 0:00:00
+8,Audioslave,Audioslave,Hypnotize,0.99,594,110,4/21/2010 0:00:00
+8,Audioslave,Out Of Exile,Drown Me Slowly,0.99,595,110,4/21/2010 0:00:00
+8,Audioslave,Revelations,Shape of Things to Come,0.99,1132,208,6/29/2011 0:00:00
+8,Audioslave,Audioslave,Like a Stone,0.99,1166,215,7/30/2011 0:00:00
+8,Audioslave,Audioslave,The Last Remaining Light,0.99,1167,215,7/30/2011 0:00:00
+8,Audioslave,Out Of Exile,Yesterday To Tomorrow,0.99,1168,215,7/30/2011 0:00:00
+8,Audioslave,Revelations,Sound of a Gun,0.99,1704,313,10/6/2012 0:00:00
+8,Audioslave,Revelations,Moth,0.99,1705,313,10/6/2012 0:00:00
+8,Audioslave,Audioslave,Exploder,0.99,1739,320,11/6/2012 0:00:00
+8,Audioslave,Out Of Exile,Doesn't Remind Me,0.99,1740,320,11/6/2012 0:00:00
+264,Kent Nagano and Orchestre de l'Opï¿½ra de Lyon,Weill: The Seven Deadly Sins,Symphony No. 2: III. Allegro vivace,0.99,1151,213,7/22/2011 0:00:00
+9,BackBeat,BackBeat Soundtrack,Rock 'N' Roll Music,0.99,24,5,1/11/2009 0:00:00
+9,BackBeat,BackBeat Soundtrack,Long Tall Sally,0.99,596,110,4/21/2010 0:00:00
+9,BackBeat,BackBeat Soundtrack,Good Golly Miss Molly,0.99,597,110,4/21/2010 0:00:00
+9,BackBeat,BackBeat Soundtrack,C'Mon Everybody,0.99,1169,215,7/30/2011 0:00:00
+9,BackBeat,BackBeat Soundtrack,Money,0.99,1741,320,11/6/2012 0:00:00
+9,BackBeat,BackBeat Soundtrack,Carol,0.99,1742,320,11/6/2012 0:00:00
+265,Julian Bream,"J.S. Bach: Chaconne, Suite in E Minor, Partita in E Major & Prelude, Fugue and Allegro","Partita in E Major, BWV 1006A: I. Prelude",0.99,575,107,4/12/2010 0:00:00
+10,Billy Cobham,The Best Of Billy Cobham,Moon germs,0.99,25,5,1/11/2009 0:00:00
+10,Billy Cobham,The Best Of Billy Cobham,Do what cha wanna,0.99,598,110,4/21/2010 0:00:00
+10,Billy Cobham,The Best Of Billy Cobham,"Spanish moss-""A sound portrait""-Spanish moss",0.99,1170,215,7/30/2011 0:00:00
+10,Billy Cobham,The Best Of Billy Cobham,Solo-Panhandler,0.99,1743,320,11/6/2012 0:00:00
+266,Martin Roscoe,"Szymanowski: Piano Works, Vol. 1","Metopes, Op. 29: Calypso",0.99,1152,213,7/22/2011 0:00:00
+11,Black Label Society,Alcohol Fueled Brewtality Live! [Disc 1],Super Terrorizer,0.99,26,5,1/11/2009 0:00:00
+11,Black Label Society,Alcohol Fueled Brewtality Live! [Disc 2],Heart Of Gold,0.99,27,5,1/11/2009 0:00:00
+11,Black Label Society,Alcohol Fueled Brewtality Live! [Disc 1],A.N.D.R.O.T.A.Z.,0.99,599,110,4/21/2010 0:00:00
+11,Black Label Society,Alcohol Fueled Brewtality Live! [Disc 2],The Beginning...At Last,0.99,600,110,4/21/2010 0:00:00
+11,Black Label Society,Alcohol Fueled Brewtality Live! [Disc 1],All For You,0.99,1171,215,7/30/2011 0:00:00
+11,Black Label Society,Alcohol Fueled Brewtality Live! [Disc 1],The Begining... At Last,0.99,1172,215,7/30/2011 0:00:00
+11,Black Label Society,Alcohol Fueled Brewtality Live! [Disc 1],Bored To Tears,0.99,1744,320,11/6/2012 0:00:00
+11,Black Label Society,Alcohol Fueled Brewtality Live! [Disc 2],Blood In The Wall,0.99,1745,320,11/6/2012 0:00:00
+267,Gï¿½teborgs Symfoniker & Neeme Jï¿½rvi,Nielsen: The Six Symphonies,"Symphony No. 2, Op. 16 -  ""The Four Temperaments"": II. Allegro Comodo e Flemmatico",0.99,1726,319,11/1/2012 0:00:00
+12,Black Sabbath,Black Sabbath,Evil Woman,0.99,28,5,1/11/2009 0:00:00
+12,Black Sabbath,Black Sabbath Vol. 4 (Remaster),Cornucopia,0.99,29,5,1/11/2009 0:00:00
+12,Black Sabbath,Black Sabbath Vol. 4 (Remaster),Tomorrow's Dream,0.99,601,110,4/21/2010 0:00:00
+12,Black Sabbath,Black Sabbath,N.I.B.,0.99,1173,215,7/30/2011 0:00:00
+12,Black Sabbath,Black Sabbath Vol. 4 (Remaster),Snowblind,0.99,1174,215,7/30/2011 0:00:00
+12,Black Sabbath,Black Sabbath Vol. 4 (Remaster),Snowblind,0.99,1746,321,11/14/2012 0:00:00
+12,Black Sabbath,Black Sabbath Vol. 4 (Remaster),Cornucopia,0.99,1747,322,11/27/2012 0:00:00
+12,Black Sabbath,Black Sabbath Vol. 4 (Remaster),Laguna Sunrise,0.99,1748,322,11/27/2012 0:00:00
+12,Black Sabbath,Black Sabbath Vol. 4 (Remaster),Under The Sun/Every Day Comes and Goes,0.99,1749,323,11/27/2012 0:00:00
+13,Body Count,Body Count,Bowels Of The Devil,0.99,30,5,1/11/2009 0:00:00
+13,Body Count,Body Count,Body Count Anthem,0.99,31,5,1/11/2009 0:00:00
+13,Body Count,Body Count,Smoked Pork,0.99,602,110,4/21/2010 0:00:00
+13,Body Count,Body Count,Voodoo,0.99,603,110,4/21/2010 0:00:00
+13,Body Count,Body Count,A Statistic,0.99,1175,215,7/30/2011 0:00:00
+13,Body Count,Body Count,Body Count's In The House,0.99,1750,323,11/27/2012 0:00:00
+13,Body Count,Body Count,Body Count,0.99,1751,324,11/28/2012 0:00:00
+13,Body Count,Body Count,Bowels Of The Devil,0.99,1752,324,11/28/2012 0:00:00
+13,Body Count,Body Count,KKK Bitch,0.99,1753,324,11/28/2012 0:00:00
+13,Body Count,Body Count,Voodoo,0.99,1754,324,11/28/2012 0:00:00
+13,Body Count,Body Count,Evil Dick,0.99,1755,325,11/29/2012 0:00:00
+269,Michele Campanella,Liszt - 12 ï¿½tudes D'Execution Transcendante,"ï¿½tude 1, In C Major - Preludio (Presto) - Liszt",0.99,577,108,4/13/2010 0:00:00
+14,Bruce Dickinson,Chemical Wedding,Jerusalem,0.99,32,5,1/11/2009 0:00:00
+14,Bruce Dickinson,Chemical Wedding,Chemical Wedding,0.99,604,110,4/21/2010 0:00:00
+14,Bruce Dickinson,Chemical Wedding,Realword,0.99,605,110,4/21/2010 0:00:00
+14,Bruce Dickinson,Chemical Wedding,Chemical Wedding,0.99,1176,216,8/7/2011 0:00:00
+14,Bruce Dickinson,Chemical Wedding,The Tower,0.99,1177,217,8/20/2011 0:00:00
+14,Bruce Dickinson,Chemical Wedding,Killing Floor,0.99,1178,217,8/20/2011 0:00:00
+14,Bruce Dickinson,Chemical Wedding,Gates Of Urizen,0.99,1179,218,8/20/2011 0:00:00
+14,Bruce Dickinson,Chemical Wedding,Trupets Of Jericho,0.99,1180,218,8/20/2011 0:00:00
+14,Bruce Dickinson,Chemical Wedding,The Alchemist,0.99,1181,219,8/21/2011 0:00:00
+14,Bruce Dickinson,Chemical Wedding,King In Crimson,0.99,1756,325,11/29/2012 0:00:00
+14,Bruce Dickinson,Chemical Wedding,Book Of Thel,0.99,1757,325,11/29/2012 0:00:00
+14,Bruce Dickinson,Chemical Wedding,Machine Men,0.99,1758,325,11/29/2012 0:00:00
+15,Buddy Guy,The Best Of Buddy Guy - The Millenium Collection,When My Left Eye Jumps,0.99,33,5,1/11/2009 0:00:00
+15,Buddy Guy,The Best Of Buddy Guy - The Millenium Collection,First Time I Met The Blues,0.99,1182,219,8/21/2011 0:00:00
+15,Buddy Guy,The Best Of Buddy Guy - The Millenium Collection,Stone Crazy,0.99,1183,219,8/21/2011 0:00:00
+15,Buddy Guy,The Best Of Buddy Guy - The Millenium Collection,When My Left Eye Jumps,0.99,1184,219,8/21/2011 0:00:00
+15,Buddy Guy,The Best Of Buddy Guy - The Millenium Collection,My Time After Awhile,0.99,1185,220,8/22/2011 0:00:00
+15,Buddy Guy,The Best Of Buddy Guy - The Millenium Collection,Let Me Love You Baby,0.99,1759,325,11/29/2012 0:00:00
+15,Buddy Guy,The Best Of Buddy Guy - The Millenium Collection,Leave My Girl Alone,0.99,1760,325,11/29/2012 0:00:00
+16,Caetano Veloso,Prenda Minha,Meditaï¿½ï¿½o,0.99,34,5,1/11/2009 0:00:00
+16,Caetano Veloso,Prenda Minha,Esse Cara,0.99,35,5,1/11/2009 0:00:00
+16,Caetano Veloso,Prenda Minha,Meditaï¿½ï¿½o,0.99,606,111,4/29/2010 0:00:00
+16,Caetano Veloso,Prenda Minha,Terra,0.99,607,112,5/12/2010 0:00:00
+16,Caetano Veloso,Prenda Minha,Eclipse Oculto,0.99,608,112,5/12/2010 0:00:00
+16,Caetano Veloso,Prenda Minha,Bem Devagar,0.99,609,113,5/12/2010 0:00:00
+16,Caetano Veloso,Prenda Minha,Saudosismo,0.99,610,113,5/12/2010 0:00:00
+16,Caetano Veloso,Prenda Minha,Sozinho,0.99,611,114,5/13/2010 0:00:00
+16,Caetano Veloso,Prenda Minha,Mel,0.99,612,114,5/13/2010 0:00:00
+16,Caetano Veloso,Prenda Minha,Odara,0.99,613,114,5/13/2010 0:00:00
+16,Caetano Veloso,Prenda Minha,Atrï¿½s Da Verd-E-Rosa Sï¿½ Nï¿½o Vai Quem Jï¿½ Morreu,0.99,614,114,5/13/2010 0:00:00
+16,Caetano Veloso,Sozinho Remix Ao Vivo,Sozinho (Caï¿½drum 'n' Bass),0.99,615,115,5/14/2010 0:00:00
+16,Caetano Veloso,Prenda Minha,Prenda Minha,0.99,1186,220,8/22/2011 0:00:00
+16,Caetano Veloso,Prenda Minha,"Texto ""Verdade Tropical""",0.99,1187,220,8/22/2011 0:00:00
+16,Caetano Veloso,Prenda Minha,Carolina,0.99,1188,220,8/22/2011 0:00:00
+16,Caetano Veloso,Prenda Minha,Linha Do Equador,0.99,1189,220,8/22/2011 0:00:00
+16,Caetano Veloso,Prenda Minha,Vida Boa,0.99,1190,220,8/22/2011 0:00:00
+16,Caetano Veloso,Prenda Minha,Jorge Da Capadï¿½cia,0.99,1761,326,12/2/2012 0:00:00
+16,Caetano Veloso,Prenda Minha,Bem Devagar,0.99,1762,326,12/2/2012 0:00:00
+16,Caetano Veloso,Prenda Minha,Mel,0.99,1763,326,12/2/2012 0:00:00
+16,Caetano Veloso,Sozinho Remix Ao Vivo,Sozinho (Hitmakers Classic Mix),0.99,1764,326,12/2/2012 0:00:00
+272,Emerson String Quartet,Schubert: The Late String Quartets & String Quintet (3 CD's),"String Quartet No. 12 in C Minor, D. 703 ""Quartettsatz"": II. Andante - Allegro assai",0.99,578,108,4/13/2010 0:00:00
+272,Emerson String Quartet,Schubert: The Late String Quartets & String Quintet (3 CD's),"String Quartet No. 12 in C Minor, D. 703 ""Quartettsatz"": II. Andante - Allegro assai",0.99,1727,319,11/1/2012 0:00:00
+17,Chico Buarque,Minha Historia,"Bye, Bye Brasil",0.99,36,6,1/19/2009 0:00:00
+17,Chico Buarque,Minha Historia,Atras Da Porta,0.99,37,7,2/1/2009 0:00:00
+17,Chico Buarque,Minha Historia,Tatuagem,0.99,38,7,2/1/2009 0:00:00
+17,Chico Buarque,Minha Historia,Morena De Angola,0.99,39,8,2/1/2009 0:00:00
+17,Chico Buarque,Minha Historia,A Banda,0.99,40,8,2/1/2009 0:00:00
+17,Chico Buarque,Minha Historia,Com Aï¿½ï¿½car E Com Afeto,0.99,41,9,2/2/2009 0:00:00
+17,Chico Buarque,Minha Historia,Meu Caro Amigo,0.99,42,9,2/2/2009 0:00:00
+17,Chico Buarque,Minha Historia,Trocando Em Miï¿½dos,0.99,43,9,2/2/2009 0:00:00
+17,Chico Buarque,Minha Historia,Gota D'ï¿½gua,0.99,44,9,2/2/2009 0:00:00
+17,Chico Buarque,Minha Historia,Podres Poderes,0.99,91,18,3/9/2009 0:00:00
+17,Chico Buarque,Minha Historia,Queixa,0.99,92,18,3/9/2009 0:00:00
+17,Chico Buarque,Minha Historia,Samba De Orly,0.99,616,115,5/14/2010 0:00:00
+17,Chico Buarque,Minha Historia,O Que Serï¿½ (ï¿½ Flor Da Terra),0.99,617,115,5/14/2010 0:00:00
+17,Chico Buarque,Minha Historia,Minha Historia,0.99,618,115,5/14/2010 0:00:00
+17,Chico Buarque,Minha Historia,Geni E O Zepelim,0.99,619,115,5/14/2010 0:00:00
+17,Chico Buarque,Minha Historia,Construï¿½ï¿½o / Deus Lhe Pague,0.99,620,115,5/14/2010 0:00:00
+17,Chico Buarque,Minha Historia,Voce Nao Entende Nada - Cotidiano,0.99,665,123,6/17/2010 0:00:00
+17,Chico Buarque,Minha Historia,O Leaozinho,0.99,666,123,6/17/2010 0:00:00
+17,Chico Buarque,Minha Historia,Vai Passar,0.99,1191,221,8/25/2011 0:00:00
+17,Chico Buarque,Minha Historia,Morena De Angola,0.99,1192,221,8/25/2011 0:00:00
+17,Chico Buarque,Minha Historia,Meu Caro Amigo,0.99,1193,221,8/25/2011 0:00:00
+17,Chico Buarque,Minha Historia,Um Indio,0.99,1238,229,9/30/2011 0:00:00
+17,Chico Buarque,Minha Historia,Fora Da Ordem,0.99,1239,229,9/30/2011 0:00:00
+17,Chico Buarque,Minha Historia,Samba De Orly,0.99,1765,326,12/2/2012 0:00:00
+17,Chico Buarque,Minha Historia,Apesar De Vocï¿½,0.99,1766,326,12/2/2012 0:00:00
+17,Chico Buarque,Minha Historia,Geni E O Zepelim,0.99,1767,326,12/2/2012 0:00:00
+17,Chico Buarque,Minha Historia,Menino Do Rio,0.99,1811,334,1/7/2013 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Afrociberdelia,Etnia,0.99,45,10,2/3/2009 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Afrociberdelia,Samba Do Lado,0.99,46,10,2/3/2009 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Afrociberdelia,Sobremesa,0.99,47,10,2/3/2009 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Afrociberdelia,Sangue De Bairro,0.99,48,10,2/3/2009 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Afrociberdelia,Amor De Muito,0.99,49,10,2/3/2009 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Afrociberdelia,Maracatu Atï¿½mico [Trip Hop],0.99,50,10,2/3/2009 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Da Lama Ao Caos,Samba Makossa,0.99,51,11,2/6/2009 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Da Lama Ao Caos,Lixo Do Mangue,0.99,52,11,2/6/2009 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Afrociberdelia,Um Passeio No Mundo Livre,0.99,621,116,5/17/2010 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Afrociberdelia,Manguetown,0.99,622,116,5/17/2010 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Afrociberdelia,Crianï¿½a De Domingo,0.99,623,116,5/17/2010 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Da Lama Ao Caos,Banditismo Por Uma Questa,0.99,624,116,5/17/2010 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Da Lama Ao Caos,Da Lama Ao Caos,0.99,625,116,5/17/2010 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Da Lama Ao Caos,Computadores Fazem Arte,0.99,626,116,5/17/2010 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Afrociberdelia,Mateus Enter,0.99,1194,221,8/25/2011 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Afrociberdelia,Samba Do Lado,0.99,1195,221,8/25/2011 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Afrociberdelia,Um Satï¿½lite Na Cabeï¿½a,0.99,1196,221,8/25/2011 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Afrociberdelia,Amor De Muito,0.99,1197,221,8/25/2011 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Da Lama Ao Caos,Banditismo Por Uma Questa,0.99,1198,221,8/25/2011 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Da Lama Ao Caos,Maracatu De Tiro Certeiro,0.99,1199,221,8/25/2011 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Afrociberdelia,O Cidadï¿½o Do Mundo,0.99,1768,326,12/2/2012 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Afrociberdelia,Maracatu Atï¿½mico,0.99,1769,326,12/2/2012 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Afrociberdelia,Interlude Zumbi,0.99,1770,327,12/7/2012 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Da Lama Ao Caos,Rios Pontes & Overdrives,0.99,1771,327,12/7/2012 0:00:00
+18,Chico Science & Naï¿½ï¿½o Zumbi,Da Lama Ao Caos,Lixo Do Mangue,0.99,1772,327,12/7/2012 0:00:00
+19,Cidade Negra,Acï¿½stico MTV [Live],Firmamento,0.99,53,11,2/6/2009 0:00:00
+19,Cidade Negra,Acï¿½stico MTV [Live],Jï¿½ Foi,0.99,54,11,2/6/2009 0:00:00
+19,Cidade Negra,Acï¿½stico MTV [Live],A Cor Do Sol,0.99,55,11,2/6/2009 0:00:00
+19,Cidade Negra,Cidade Negra - Hits,Firmamento,0.99,56,11,2/6/2009 0:00:00
+19,Cidade Negra,Cidade Negra - Hits,Sï¿½bado A Noite,0.99,57,11,2/6/2009 0:00:00
+19,Cidade Negra,Acï¿½stico MTV [Live],Extra,0.99,627,116,5/17/2010 0:00:00
+19,Cidade Negra,Acï¿½stico MTV [Live],Onde Vocï¿½ Mora?,0.99,628,116,5/17/2010 0:00:00
+19,Cidade Negra,Cidade Negra - Hits,Onde Vocï¿½ Mora?,0.99,629,116,5/17/2010 0:00:00
+19,Cidade Negra,Cidade Negra - Hits,Na Frente Da TV,0.99,630,117,5/22/2010 0:00:00
+19,Cidade Negra,Acï¿½stico MTV [Live],Soldado Da Paz,0.99,1200,222,8/30/2011 0:00:00
+19,Cidade Negra,Acï¿½stico MTV [Live],Pensamento,0.99,1201,222,8/30/2011 0:00:00
+19,Cidade Negra,Cidade Negra - Hits,Falar A Verdade,0.99,1202,222,8/30/2011 0:00:00
+19,Cidade Negra,Cidade Negra - Hits,Eu Tambï¿½m Quero Beijar,0.99,1203,222,8/30/2011 0:00:00
+19,Cidade Negra,Acï¿½stico MTV [Live],Podes Crer,0.99,1773,327,12/7/2012 0:00:00
+19,Cidade Negra,Acï¿½stico MTV [Live],A Cor Do Sol,0.99,1774,327,12/7/2012 0:00:00
+19,Cidade Negra,Cidade Negra - Hits,Doutor,0.99,1775,327,12/7/2012 0:00:00
+20,Clï¿½udio Zoli,Na Pista,Linha Do Equador,0.99,58,11,2/6/2009 0:00:00
+20,Clï¿½udio Zoli,Na Pista,Livre Pra Viver,0.99,59,11,2/6/2009 0:00:00
+20,Clï¿½udio Zoli,Na Pista,Amor Demais,0.99,631,117,5/22/2010 0:00:00
+20,Clï¿½udio Zoli,Na Pista,Felicidade Urgente,0.99,1204,222,8/30/2011 0:00:00
+20,Clï¿½udio Zoli,Na Pista,Linha Do Equador,0.99,1776,327,12/7/2012 0:00:00
+21,Various Artists,Axï¿½ Bahia 2001,Lavadeira,0.99,60,12,2/11/2009 0:00:00
+21,Various Artists,Carnaval 2001,Leandro De Itaquera 2001,0.99,64,12,2/11/2009 0:00:00
+21,Various Artists,Sambas De Enredo 2001,Uniï¿½o Da Ilha,0.99,98,19,3/14/2009 0:00:00
+21,Various Artists,Vozes do MPB,Pela Luz dos Olhos Teus (Miï¿½cha e Tom Jobim),0.99,109,19,3/14/2009 0:00:00
+21,Various Artists,Vozes do MPB,As Rosas Nï¿½o Falam (Beth Carvalho),0.99,110,19,3/14/2009 0:00:00
+21,Various Artists,Axï¿½ Bahia 2001,"Tapa Aqui, Descobre Ali",0.99,632,117,5/22/2010 0:00:00
+21,Various Artists,Axï¿½ Bahia 2001,My Love,0.99,633,117,5/22/2010 0:00:00
+21,Various Artists,Carnaval 2001,Gavioes 2001,0.99,636,117,5/22/2010 0:00:00
+21,Various Artists,Carnaval 2001,Morro Da Casa Verde 2001,0.99,637,117,5/22/2010 0:00:00
+21,Various Artists,Sambas De Enredo 2001,Viradouro,0.99,670,124,6/22/2010 0:00:00
+21,Various Artists,Sambas De Enredo 2001,Tradiï¿½ï¿½o,0.99,671,124,6/22/2010 0:00:00
+21,Various Artists,Vozes do MPB,As Rosas Nï¿½o Falam (Beth Carvalho),0.99,682,125,6/30/2010 0:00:00
+21,Various Artists,Vozes do MPB,Wave (Os Cariocas),0.99,683,126,7/13/2010 0:00:00
+21,Various Artists,Vozes do MPB,Garota de Ipanema (Dick Farney),0.99,684,126,7/13/2010 0:00:00
+21,Various Artists,Axï¿½ Bahia 2001,Levada do Amor (Ailoviu),0.99,1205,222,8/30/2011 0:00:00
+21,Various Artists,Carnaval 2001,Camisa Verde 2001,0.99,1209,222,8/30/2011 0:00:00
+21,Various Artists,Sambas De Enredo 2001,Mangueira,0.99,1243,229,9/30/2011 0:00:00
+21,Various Artists,Vozes do MPB,Pela Luz dos Olhos Teus (Miï¿½cha e Tom Jobim),0.99,1260,233,10/22/2011 0:00:00
+21,Various Artists,Vozes do MPB,Coraï¿½ï¿½o do Agreste (Fafï¿½ de Belï¿½m),0.99,1261,234,10/23/2011 0:00:00
+21,Various Artists,Vozes do MPB,Romaria (Renato Teixeira),0.99,1262,234,10/23/2011 0:00:00
+21,Various Artists,Vozes do MPB,Preciso Apender a Viver Sï¿½ (Maysa),0.99,1263,234,10/23/2011 0:00:00
+21,Various Artists,Axï¿½ Bahia 2001,TriboTchan,0.99,1777,327,12/7/2012 0:00:00
+21,Various Artists,Axï¿½ Bahia 2001,Reggae Tchan,0.99,1778,327,12/7/2012 0:00:00
+21,Various Artists,Carnaval 2001,X-9 2001,0.99,1781,327,12/7/2012 0:00:00
+21,Various Artists,Carnaval 2001,Ipiranga 2001,0.99,1782,327,12/7/2012 0:00:00
+21,Various Artists,Sambas De Enredo 2001,Beija-Flor,0.99,1815,334,1/7/2013 0:00:00
+21,Various Artists,Sambas De Enredo 2001,Caprichosos,0.99,1816,334,1/7/2013 0:00:00
+21,Various Artists,Vozes do MPB,Chï¿½o de Giz (Elba Ramalho),0.99,1836,339,1/30/2013 0:00:00
+21,Various Artists,Vozes do MPB,Caï¿½ador de Mim (Sï¿½ & Guarabyra),0.99,1837,340,2/2/2013 0:00:00
+22,Led Zeppelin,BBC Sessions [Disc 1] [Live],Dazed and Confused,0.99,61,12,2/11/2009 0:00:00
+22,Led Zeppelin,BBC Sessions [Disc 1] [Live],You Shook Me(2),0.99,62,12,2/11/2009 0:00:00
+22,Led Zeppelin,Physical Graffiti [Disc 1],Trampled Under Foot,0.99,97,18,3/9/2009 0:00:00
+22,Led Zeppelin,BBC Sessions [Disc 2] [Live],Dazed And Confused,0.99,260,47,7/16/2009 0:00:00
+22,Led Zeppelin,Coda,Walter's Walk,0.99,261,47,7/16/2009 0:00:00
+22,Led Zeppelin,Houses Of The Holy,Dancing Days,0.99,262,47,7/16/2009 0:00:00
+22,Led Zeppelin,In Through The Out Door,All My Love,0.99,263,47,7/16/2009 0:00:00
+22,Led Zeppelin,Led Zeppelin I,Your Time Is Gonna Come,0.99,264,48,7/24/2009 0:00:00
+22,Led Zeppelin,Led Zeppelin I,Black Mountain Side,0.99,265,49,8/6/2009 0:00:00
+22,Led Zeppelin,Led Zeppelin I,Communication Breakdown,0.99,266,49,8/6/2009 0:00:00
+22,Led Zeppelin,Led Zeppelin I,How Many More Times,0.99,267,50,8/6/2009 0:00:00
+22,Led Zeppelin,Led Zeppelin II,What Is And What Should Never Be,0.99,268,50,8/6/2009 0:00:00
+22,Led Zeppelin,Led Zeppelin II,Thank You,0.99,269,51,8/7/2009 0:00:00
+22,Led Zeppelin,Led Zeppelin II,Living Loving Maid (She's Just A Woman),0.99,270,51,8/7/2009 0:00:00
+22,Led Zeppelin,Led Zeppelin II,Moby Dick,0.99,271,51,8/7/2009 0:00:00
+22,Led Zeppelin,Led Zeppelin III,Immigrant Song,0.99,272,51,8/7/2009 0:00:00
+22,Led Zeppelin,Led Zeppelin III,Out On The Tiles,0.99,273,52,8/8/2009 0:00:00
+22,Led Zeppelin,Led Zeppelin III,Bron-Y-Aur Stomp,0.99,274,52,8/8/2009 0:00:00
+22,Led Zeppelin,Physical Graffiti [Disc 2],Down By The Seaside,0.99,275,52,8/8/2009 0:00:00
+22,Led Zeppelin,Physical Graffiti [Disc 2],Boogie With Stu,0.99,276,52,8/8/2009 0:00:00
+22,Led Zeppelin,Presence,For Your Life,0.99,277,52,8/8/2009 0:00:00
+22,Led Zeppelin,Presence,Hots On For Nowhere,0.99,278,52,8/8/2009 0:00:00
+22,Led Zeppelin,The Song Remains The Same (Disc 1),Dazed And Confused,0.99,279,53,8/11/2009 0:00:00
+22,Led Zeppelin,BBC Sessions [Disc 1] [Live],Travelling Riverside Blues,0.99,634,117,5/22/2010 0:00:00
+22,Led Zeppelin,BBC Sessions [Disc 2] [Live],Whole Lotta Love (Medley),0.99,833,152,10/24/2010 0:00:00
+22,Led Zeppelin,Houses Of The Holy,Dancing Days,0.99,834,153,11/1/2010 0:00:00
+22,Led Zeppelin,Houses Of The Holy,D'Yer Mak'er,0.99,835,154,11/14/2010 0:00:00
+22,Led Zeppelin,Houses Of The Holy,No Quarter,0.99,836,154,11/14/2010 0:00:00
+22,Led Zeppelin,In Through The Out Door,In The Evening,0.99,837,155,11/14/2010 0:00:00
+22,Led Zeppelin,In Through The Out Door,Fool In The Rain,0.99,838,155,11/14/2010 0:00:00
+22,Led Zeppelin,In Through The Out Door,Carouselambra,0.99,839,156,11/15/2010 0:00:00
+22,Led Zeppelin,In Through The Out Door,I'm Gonna Crawl,0.99,840,156,11/15/2010 0:00:00
+22,Led Zeppelin,IV,Rock & Roll,0.99,841,156,11/15/2010 0:00:00
+22,Led Zeppelin,IV,Stairway To Heaven,0.99,842,156,11/15/2010 0:00:00
+22,Led Zeppelin,IV,When The Levee Breaks,0.99,843,157,11/16/2010 0:00:00
+22,Led Zeppelin,Led Zeppelin I,Dazed and Confused,0.99,844,157,11/16/2010 0:00:00
+22,Led Zeppelin,Led Zeppelin I,I Can't Quit You Baby,0.99,845,157,11/16/2010 0:00:00
+22,Led Zeppelin,Led Zeppelin II,The Lemon Song,0.99,846,157,11/16/2010 0:00:00
+22,Led Zeppelin,Led Zeppelin II,Ramble On,0.99,847,157,11/16/2010 0:00:00
+22,Led Zeppelin,Led Zeppelin III,Friends,0.99,848,157,11/16/2010 0:00:00
+22,Led Zeppelin,Led Zeppelin III,That's The Way,0.99,849,158,11/19/2010 0:00:00
+22,Led Zeppelin,Physical Graffiti [Disc 2],Ten Years Gone,0.99,850,158,11/19/2010 0:00:00
+22,Led Zeppelin,Presence,Achilles Last Stand,0.99,851,158,11/19/2010 0:00:00
+22,Led Zeppelin,Presence,Tea For One,0.99,852,158,11/19/2010 0:00:00
+22,Led Zeppelin,The Song Remains The Same (Disc 2),No Quarter,0.99,853,158,11/19/2010 0:00:00
+22,Led Zeppelin,BBC Sessions [Disc 1] [Live],Communication Breakdown,0.99,1206,222,8/30/2011 0:00:00
+22,Led Zeppelin,BBC Sessions [Disc 1] [Live],I Can't Quit You Baby(2),0.99,1207,222,8/30/2011 0:00:00
+22,Led Zeppelin,Physical Graffiti [Disc 1],Houses Of The Holy,0.99,1242,229,9/30/2011 0:00:00
+22,Led Zeppelin,BBC Sessions [Disc 2] [Live],Immigrant Song,0.99,1405,259,2/22/2012 0:00:00
+22,Led Zeppelin,BBC Sessions [Disc 2] [Live],Heartbreaker,0.99,1406,259,2/22/2012 0:00:00
+22,Led Zeppelin,BBC Sessions [Disc 2] [Live],Black Dog,0.99,1407,260,2/22/2012 0:00:00
+22,Led Zeppelin,BBC Sessions [Disc 2] [Live],Stairway To Heaven,0.99,1408,260,2/22/2012 0:00:00
+22,Led Zeppelin,BBC Sessions [Disc 2] [Live],That's The Way,0.99,1409,261,2/23/2012 0:00:00
+22,Led Zeppelin,BBC Sessions [Disc 2] [Live],Thank You,0.99,1410,261,2/23/2012 0:00:00
+22,Led Zeppelin,Coda,Poor Tom,0.99,1411,261,2/23/2012 0:00:00
+22,Led Zeppelin,Coda,Walter's Walk,0.99,1412,261,2/23/2012 0:00:00
+22,Led Zeppelin,Coda,Wearing And Tearing,0.99,1413,262,2/24/2012 0:00:00
+22,Led Zeppelin,Houses Of The Holy,The Crunge,0.99,1414,262,2/24/2012 0:00:00
+22,Led Zeppelin,Houses Of The Holy,The Ocean,0.99,1415,262,2/24/2012 0:00:00
+22,Led Zeppelin,In Through The Out Door,Hot Dog,0.99,1416,262,2/24/2012 0:00:00
+22,Led Zeppelin,IV,Black Dog,0.99,1417,262,2/24/2012 0:00:00
+22,Led Zeppelin,IV,Misty Mountain Hop,0.99,1418,262,2/24/2012 0:00:00
+22,Led Zeppelin,Led Zeppelin I,You Shook Me,0.99,1419,263,2/27/2012 0:00:00
+22,Led Zeppelin,Led Zeppelin I,How Many More Times,0.99,1420,263,2/27/2012 0:00:00
+22,Led Zeppelin,Led Zeppelin II,Living Loving Maid (She's Just A Woman),0.99,1421,263,2/27/2012 0:00:00
+22,Led Zeppelin,Led Zeppelin III,Celebration Day,0.99,1422,263,2/27/2012 0:00:00
+22,Led Zeppelin,Led Zeppelin III,Bron-Y-Aur Stomp,0.99,1423,263,2/27/2012 0:00:00
+22,Led Zeppelin,Physical Graffiti [Disc 2],Night Flight,0.99,1424,263,2/27/2012 0:00:00
+22,Led Zeppelin,Presence,For Your Life,0.99,1425,263,2/27/2012 0:00:00
+22,Led Zeppelin,The Song Remains The Same (Disc 1),Rock & Roll,0.99,1426,263,2/27/2012 0:00:00
+22,Led Zeppelin,The Song Remains The Same (Disc 2),Stairway To Heaven,0.99,1427,263,2/27/2012 0:00:00
+22,Led Zeppelin,BBC Sessions [Disc 1] [Live],Communication Breakdown(2),0.99,1779,327,12/7/2012 0:00:00
+22,Led Zeppelin,BBC Sessions [Disc 2] [Live],Since I've Been Loving You,0.99,1985,367,6/3/2013 0:00:00
+22,Led Zeppelin,BBC Sessions [Disc 2] [Live],Going To California,0.99,1986,367,6/3/2013 0:00:00
+22,Led Zeppelin,Coda,We're Gonna Groove,0.99,1987,367,6/3/2013 0:00:00
+22,Led Zeppelin,Coda,Ozone Baby,0.99,1988,367,6/3/2013 0:00:00
+22,Led Zeppelin,Houses Of The Holy,Over The Hills And Far Away,0.99,1989,368,6/6/2013 0:00:00
+22,Led Zeppelin,In Through The Out Door,In The Evening,0.99,1990,368,6/6/2013 0:00:00
+22,Led Zeppelin,In Through The Out Door,I'm Gonna Crawl,0.99,1991,368,6/6/2013 0:00:00
+22,Led Zeppelin,IV,Four Sticks,0.99,1992,368,6/6/2013 0:00:00
+22,Led Zeppelin,Led Zeppelin I,Dazed and Confused,0.99,1993,368,6/6/2013 0:00:00
+22,Led Zeppelin,Led Zeppelin II,Whole Lotta Love,0.99,1994,368,6/6/2013 0:00:00
+22,Led Zeppelin,Led Zeppelin II,Ramble On,0.99,1995,368,6/6/2013 0:00:00
+22,Led Zeppelin,Led Zeppelin III,Since I've Been Loving You,0.99,1996,368,6/6/2013 0:00:00
+22,Led Zeppelin,Led Zeppelin III,Hats Off To (Roy) Harper,0.99,1997,368,6/6/2013 0:00:00
+22,Led Zeppelin,Physical Graffiti [Disc 2],Sick Again,0.99,1998,369,6/11/2013 0:00:00
+22,Led Zeppelin,The Song Remains The Same (Disc 1),Celebration Day,0.99,1999,369,6/11/2013 0:00:00
+23,Frank Zappa & Captain Beefheart,Bongo Fury,Man With The Woman Head,0.99,63,12,2/11/2009 0:00:00
+23,Frank Zappa & Captain Beefheart,Bongo Fury,Sam With The Showing Scalp Flat Top,0.99,635,117,5/22/2010 0:00:00
+23,Frank Zappa & Captain Beefheart,Bongo Fury,Advance Romance,0.99,1208,222,8/30/2011 0:00:00
+23,Frank Zappa & Captain Beefheart,Bongo Fury,Carolina Hard-Core Ecstasy,0.99,1780,327,12/7/2012 0:00:00
+24,Marcos Valle,Chill: Brazil (Disc 1),Vï¿½o Sobre o Horizonte,0.99,65,12,2/11/2009 0:00:00
+24,Marcos Valle,Chill: Brazil (Disc 1),All Star,0.99,66,12,2/11/2009 0:00:00
+24,Marcos Valle,Chill: Brazil (Disc 1),Samba da Benï¿½aco,0.99,638,117,5/22/2010 0:00:00
+24,Marcos Valle,Chill: Brazil (Disc 1),Maria Fumaï¿½a,0.99,639,117,5/22/2010 0:00:00
+24,Marcos Valle,Chill: Brazil (Disc 1),Mas Que Nada,0.99,1210,222,8/30/2011 0:00:00
+24,Marcos Valle,Chill: Brazil (Disc 1),Mistï¿½rio da Raï¿½a,0.99,1211,222,8/30/2011 0:00:00
+24,Marcos Valle,Chill: Brazil (Disc 1),ï¿½gua de Beber,0.99,1783,327,12/7/2012 0:00:00
+27,Gilberto Gil,As Canï¿½ï¿½es de Eu Tu Eles,Pau-De-Arara,0.99,180,33,5/15/2009 0:00:00
+27,Gilberto Gil,Quanta Gente Veio Ver (Live),Stir It Up (Live),0.99,181,33,5/15/2009 0:00:00
+27,Gilberto Gil,Quanta Gente Veio Ver (Live),A Novidade (Live),0.99,182,33,5/15/2009 0:00:00
+27,Gilberto Gil,As Canï¿½ï¿½es de Eu Tu Eles,Juazeiro,0.99,752,138,8/23/2010 0:00:00
+27,Gilberto Gil,As Canï¿½ï¿½es de Eu Tu Eles,Lamento Sertanejo,0.99,753,138,8/23/2010 0:00:00
+27,Gilberto Gil,Quanta Gente Veio Ver (Live),Estrela (Live),0.99,754,138,8/23/2010 0:00:00
+27,Gilberto Gil,Quanta Gente Veio ver--Bï¿½nus De Carnaval,Lamento De Carnaval,0.99,755,138,8/23/2010 0:00:00
+27,Gilberto Gil,As Canï¿½ï¿½es de Eu Tu Eles,Assum Preto,0.99,1325,243,12/1/2011 0:00:00
+27,Gilberto Gil,Quanta Gente Veio Ver (Live),Is This Love (Live),0.99,1326,243,12/1/2011 0:00:00
+27,Gilberto Gil,Quanta Gente Veio Ver (Live),Copacabana (Live),0.99,1327,243,12/1/2011 0:00:00
+27,Gilberto Gil,As Canï¿½ï¿½es de Eu Tu Eles,Esperando Na Janela,0.99,1897,348,3/10/2013 0:00:00
+27,Gilberto Gil,Quanta Gente Veio Ver (Live),Is This Love (Live),0.99,1898,349,3/18/2013 0:00:00
+27,Gilberto Gil,Quanta Gente Veio Ver (Live),Stir It Up (Live),0.99,1899,350,3/31/2013 0:00:00
+27,Gilberto Gil,Quanta Gente Veio Ver (Live),Refavela (Live),0.99,1900,350,3/31/2013 0:00:00
+27,Gilberto Gil,Quanta Gente Veio Ver (Live),Quanta (Live),0.99,1901,351,3/31/2013 0:00:00
+27,Gilberto Gil,Quanta Gente Veio Ver (Live),Pela Internet (Live),0.99,1902,351,3/31/2013 0:00:00
+27,Gilberto Gil,Quanta Gente Veio Ver (Live),Opachorï¿½ (Live),0.99,1903,352,4/1/2013 0:00:00
+27,Gilberto Gil,Quanta Gente Veio Ver (Live),A Novidade (Live),0.99,1904,352,4/1/2013 0:00:00
+27,Gilberto Gil,Quanta Gente Veio Ver (Live),De Ouro E Marfim (Live),0.99,1905,352,4/1/2013 0:00:00
+27,Gilberto Gil,Quanta Gente Veio ver--Bï¿½nus De Carnaval,Lamento De Carnaval,0.99,1906,352,4/1/2013 0:00:00
+36,O Rappa,Radio Brasil (O Som da Jovem Vanguarda) - Seleccao de Henrique Amaro,Chapa o Coco,0.99,550,102,3/16/2010 0:00:00
+36,O Rappa,Radio Brasil (O Som da Jovem Vanguarda) - Seleccao de Henrique Amaro,Todo o Carnaval tem seu Fim,0.99,551,102,3/16/2010 0:00:00
+36,O Rappa,Radio Brasil (O Som da Jovem Vanguarda) - Seleccao de Henrique Amaro,Funk de Bamba,0.99,552,102,3/16/2010 0:00:00
+36,O Rappa,Radio Brasil (O Som da Jovem Vanguarda) - Seleccao de Henrique Amaro,Um Lugar ao Sol,0.99,1124,208,6/29/2011 0:00:00
+36,O Rappa,Radio Brasil (O Som da Jovem Vanguarda) - Seleccao de Henrique Amaro,Chega no Suingue,0.99,1125,208,6/29/2011 0:00:00
+36,O Rappa,Radio Brasil (O Som da Jovem Vanguarda) - Seleccao de Henrique Amaro,Instinto Colectivo,0.99,1696,313,10/6/2012 0:00:00
+36,O Rappa,Radio Brasil (O Som da Jovem Vanguarda) - Seleccao de Henrique Amaro,Armadura,0.99,1697,313,10/6/2012 0:00:00
+37,Ed Motta,The Best of Ed Motta,Seis Da Tarde,0.99,101,19,3/14/2009 0:00:00
+37,Ed Motta,The Best of Ed Motta,Entre E Ouï¿½a,0.99,673,124,6/22/2010 0:00:00
+37,Ed Motta,The Best of Ed Motta,Agora Que O Dia Acordou,0.99,674,124,6/22/2010 0:00:00
+37,Ed Motta,The Best of Ed Motta,Um Love,0.99,1246,229,9/30/2011 0:00:00
+37,Ed Motta,The Best of Ed Motta,Manuel,0.99,1818,334,1/7/2013 0:00:00
+37,Ed Motta,The Best of Ed Motta,Do You Have Other Loves?,0.99,1819,334,1/7/2013 0:00:00
+41,Elis Regina,Elis Regina-Minha Histï¿½ria,Fascinaï¿½ï¿½o,0.99,146,26,4/14/2009 0:00:00
+41,Elis Regina,Elis Regina-Minha Histï¿½ria,"Dois Pra Lï¿½, Dois Pra Cï¿½",0.99,718,131,7/23/2010 0:00:00
+41,Elis Regina,Elis Regina-Minha Histï¿½ria,Maria Rosa,0.99,719,131,7/23/2010 0:00:00
+41,Elis Regina,Elis Regina-Minha Histï¿½ria,"Dois Pra Lï¿½, Dois Pra Cï¿½",0.99,1290,237,11/8/2011 0:00:00
+41,Elis Regina,Elis Regina-Minha Histï¿½ria,Casa no Campo,0.99,1291,238,11/21/2011 0:00:00
+41,Elis Regina,Elis Regina-Minha Histï¿½ria,Romaria,0.99,1292,238,11/21/2011 0:00:00
+41,Elis Regina,Elis Regina-Minha Histï¿½ria,Me Deixas Louca,0.99,1293,239,11/21/2011 0:00:00
+41,Elis Regina,Elis Regina-Minha Histï¿½ria,Saudosa Maloca,0.99,1294,239,11/21/2011 0:00:00
+41,Elis Regina,Elis Regina-Minha Histï¿½ria,Madalena,0.99,1295,240,11/22/2011 0:00:00
+41,Elis Regina,Elis Regina-Minha Histï¿½ria,Aprendendo A Jogar,0.99,1296,240,11/22/2011 0:00:00
+41,Elis Regina,Elis Regina-Minha Histï¿½ria,Atrï¿½s da Porta,0.99,1870,346,3/2/2013 0:00:00
+41,Elis Regina,Elis Regina-Minha Histï¿½ria,"Alï¿½, Alï¿½, Marciano",0.99,1871,346,3/2/2013 0:00:00
+41,Elis Regina,Elis Regina-Minha Histï¿½ria,As Aparï¿½ncias Enganam,0.99,1872,346,3/2/2013 0:00:00
+42,Milton Nascimento,Milton Nascimento Ao Vivo,Coraï¿½ï¿½o De Estudante,0.99,320,60,9/11/2009 0:00:00
+42,Milton Nascimento,Milton Nascimento Ao Vivo,Menestrel Das Alagoas,0.99,321,60,9/11/2009 0:00:00
+42,Milton Nascimento,Milton Nascimento Ao Vivo,"Maria, Maria",0.99,322,60,9/11/2009 0:00:00
+42,Milton Nascimento,Minas,Ponta de Areia,0.99,323,60,9/11/2009 0:00:00
+42,Milton Nascimento,Minas,Norwegian Wood,0.99,324,60,9/11/2009 0:00:00
+42,Milton Nascimento,Milton Nascimento Ao Vivo,A Noite Do Meu Bem,0.99,894,165,12/20/2010 0:00:00
+42,Milton Nascimento,Milton Nascimento Ao Vivo,Brasil,0.99,895,165,12/20/2010 0:00:00
+42,Milton Nascimento,Minas,Saudade Dos Aviï¿½es Da Panair (Conversando No Bar),0.99,896,166,12/25/2010 0:00:00
+42,Milton Nascimento,Minas,Caso Vocï¿½ Queira Saber,0.99,897,166,12/25/2010 0:00:00
+42,Milton Nascimento,Milton Nascimento Ao Vivo,Paisagem Na Janela,0.99,1467,271,4/3/2012 0:00:00
+42,Milton Nascimento,Milton Nascimento Ao Vivo,Para Lennon E McCartney,0.99,1468,271,4/3/2012 0:00:00
+42,Milton Nascimento,Minas,Idolatrada,0.99,1469,271,4/3/2012 0:00:00
+42,Milton Nascimento,Milton Nascimento Ao Vivo,Menestrel Das Alagoas,0.99,2040,376,7/12/2013 0:00:00
+42,Milton Nascimento,Minas,Beijo Partido,0.99,2041,376,7/12/2013 0:00:00
+42,Milton Nascimento,Minas,Norwegian Wood,0.99,2042,376,7/12/2013 0:00:00
+46,Jorge Ben,Jorge Ben Jor 25 Anos,Salve Simpatia,0.99,252,47,7/16/2009 0:00:00
+46,Jorge Ben,Jorge Ben Jor 25 Anos,Filho Maravilha,0.99,253,47,7/16/2009 0:00:00
+46,Jorge Ben,Jorge Ben Jor 25 Anos,Charles Anjo 45,0.99,825,152,10/24/2010 0:00:00
+46,Jorge Ben,Jorge Ben Jor 25 Anos,Mama Africa,0.99,1397,257,2/1/2012 0:00:00
+46,Jorge Ben,Jorge Ben Jor 25 Anos,Santa Clara Clareou,0.99,1398,257,2/1/2012 0:00:00
+46,Jorge Ben,Jorge Ben Jor 25 Anos,Os Alquimistas Estï¿½o Chegando,0.99,1970,362,5/11/2013 0:00:00
+50,Metallica,Garage Inc. (Disc 1),Die Die My Darling,0.99,69,12,2/11/2009 0:00:00
+50,Metallica,Black Album,The Unforgiven,0.99,297,54,8/16/2009 0:00:00
+50,Metallica,Garage Inc. (Disc 2),Helpless,0.99,298,54,8/16/2009 0:00:00
+50,Metallica,Garage Inc. (Disc 2),Stone Cold Crazy,0.99,299,54,8/16/2009 0:00:00
+50,Metallica,Kill 'Em All,Motorbreath,0.99,300,54,8/16/2009 0:00:00
+50,Metallica,Load,2 X 4,0.99,301,54,8/16/2009 0:00:00
+50,Metallica,Master Of Puppets,Master Of Puppets,0.99,302,55,8/24/2009 0:00:00
+50,Metallica,Master Of Puppets,The Thing That Should Not Be,0.99,303,56,9/6/2009 0:00:00
+50,Metallica,Master Of Puppets,Welcome Home (Sanitarium),0.99,304,56,9/6/2009 0:00:00
+50,Metallica,Master Of Puppets,Leper Messiah,0.99,305,57,9/6/2009 0:00:00
+50,Metallica,Master Of Puppets,Damage Inc.,0.99,306,57,9/6/2009 0:00:00
+50,Metallica,ReLoad,The Memory Remains,0.99,307,58,9/7/2009 0:00:00
+50,Metallica,ReLoad,The Unforgiven II,0.99,308,58,9/7/2009 0:00:00
+50,Metallica,ReLoad,Slither,0.99,309,58,9/7/2009 0:00:00
+50,Metallica,ReLoad,Bad Seed,0.99,310,58,9/7/2009 0:00:00
+50,Metallica,ReLoad,Attitude,0.99,311,59,9/8/2009 0:00:00
+50,Metallica,Ride The Lightning,For Whom The Bell Tolls,0.99,312,59,9/8/2009 0:00:00
+50,Metallica,Ride The Lightning,Creeping Death,0.99,313,59,9/8/2009 0:00:00
+50,Metallica,St. Anger,Some Kind Of Monster,0.99,314,59,9/8/2009 0:00:00
+50,Metallica,St. Anger,Shoot Me Again,0.99,315,59,9/8/2009 0:00:00
+50,Metallica,St. Anger,All Within My Hands,0.99,316,59,9/8/2009 0:00:00
+50,Metallica,...And Justice For All,Harvester Of Sorrow,0.99,317,60,9/11/2009 0:00:00
+50,Metallica,Garage Inc. (Disc 1),Whiskey In The Jar,0.99,642,117,5/22/2010 0:00:00
+50,Metallica,Black Album,Nothing Else Matters,0.99,870,159,11/24/2010 0:00:00
+50,Metallica,Garage Inc. (Disc 2),Last Caress/Green Hell,0.99,871,159,11/24/2010 0:00:00
+50,Metallica,Kill 'Em All,Motorbreath,0.99,872,160,12/2/2010 0:00:00
+50,Metallica,Kill 'Em All,Jump In The Fire,0.99,873,161,12/15/2010 0:00:00
+50,Metallica,Kill 'Em All,(Anesthesia) Pulling Teeth,0.99,874,161,12/15/2010 0:00:00
+50,Metallica,Kill 'Em All,Phantom Lord,0.99,875,162,12/15/2010 0:00:00
+50,Metallica,Kill 'Em All,Seek & Destroy,0.99,876,162,12/15/2010 0:00:00
+50,Metallica,Load,Ain't My Bitch,0.99,877,163,12/16/2010 0:00:00
+50,Metallica,Load,The House Jack Built,0.99,878,163,12/16/2010 0:00:00
+50,Metallica,Load,King Nothing,0.99,879,163,12/16/2010 0:00:00
+50,Metallica,Load,Bleeding Me,0.99,880,163,12/16/2010 0:00:00
+50,Metallica,Load,Mama Said,0.99,881,164,12/17/2010 0:00:00
+50,Metallica,Master Of Puppets,Battery,0.99,882,164,12/17/2010 0:00:00
+50,Metallica,Master Of Puppets,Disposable Heroes,0.99,883,164,12/17/2010 0:00:00
+50,Metallica,ReLoad,Fuel,0.99,884,164,12/17/2010 0:00:00
+50,Metallica,ReLoad,Better Than You,0.99,885,164,12/17/2010 0:00:00
+50,Metallica,ReLoad,Where The Wild Things Are,0.99,886,164,12/17/2010 0:00:00
+50,Metallica,Ride The Lightning,Ride The Lightning,0.99,887,165,12/20/2010 0:00:00
+50,Metallica,Ride The Lightning,The Call Of Ktulu,0.99,888,165,12/20/2010 0:00:00
+50,Metallica,St. Anger,My World,0.99,889,165,12/20/2010 0:00:00
+50,Metallica,...And Justice For All,Blackened,0.99,890,165,12/20/2010 0:00:00
+50,Metallica,...And Justice For All,The Frayed Ends Of Sanity,0.99,891,165,12/20/2010 0:00:00
+50,Metallica,Garage Inc. (Disc 1),Whiskey In The Jar,0.99,1214,223,9/7/2011 0:00:00
+50,Metallica,Garage Inc. (Disc 1),Tuesday's Gone,0.99,1215,224,9/20/2011 0:00:00
+50,Metallica,Garage Inc. (Disc 1),The More I See,0.99,1216,224,9/20/2011 0:00:00
+50,Metallica,Black Album,Nothing Else Matters,0.99,1442,265,3/11/2012 0:00:00
+50,Metallica,Black Album,Of Wolf And Man,0.99,1443,266,3/24/2012 0:00:00
+50,Metallica,Black Album,The God That Failed,0.99,1444,266,3/24/2012 0:00:00
+50,Metallica,Black Album,The Struggle Within,0.99,1445,267,3/24/2012 0:00:00

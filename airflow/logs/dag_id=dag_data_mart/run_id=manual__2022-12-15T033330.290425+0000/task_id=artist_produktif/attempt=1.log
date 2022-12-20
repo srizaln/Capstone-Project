@@ -1,0 +1,24 @@
+[2022-12-15T03:33:47.323+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: dag_data_mart.artist_produktif manual__2022-12-15T03:33:30.290425+00:00 [queued]>
+[2022-12-15T03:33:47.443+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: dag_data_mart.artist_produktif manual__2022-12-15T03:33:30.290425+00:00 [queued]>
+[2022-12-15T03:33:47.450+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-15T03:33:47.461+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-12-15T03:33:47.478+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-15T03:33:47.691+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): artist_produktif> on 2022-12-15 03:33:30.290425+00:00
+[2022-12-15T03:33:47.723+0000] {standard_task_runner.py:55} INFO - Started process 4074 to run task
+[2022-12-15T03:33:47.770+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'dag_data_mart', 'artist_produktif', 'manual__2022-12-15T03:33:30.290425+00:00', '--job-id', '543', '--raw', '--subdir', 'DAGS_FOLDER/dag_data_mart.py', '--cfg-path', '/tmp/tmpx1ltkknw']
+[2022-12-15T03:33:47.786+0000] {standard_task_runner.py:83} INFO - Job 543: Subtask artist_produktif
+[2022-12-15T03:33:48.255+0000] {task_command.py:376} INFO - Running <TaskInstance: dag_data_mart.artist_produktif manual__2022-12-15T03:33:30.290425+00:00 [running]> on host 0d7510ca55af
+[2022-12-15T03:33:48.855+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dag_data_mart
+AIRFLOW_CTX_TASK_ID=artist_produktif
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-15T03:33:30.290425+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-15T03:33:30.290425+00:00
+[2022-12-15T03:34:04.258+0000] {logging_mixin.py:120} INFO - Loaded 233 rows and 3 columns to cde2022-370103.datamart.artist_produktif
+[2022-12-15T03:34:04.259+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-12-15T03:34:04.278+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=dag_data_mart, task_id=artist_produktif, execution_date=20221215T033330, start_date=20221215T033347, end_date=20221215T033404
+[2022-12-15T03:34:04.330+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-12-15T03:34:04.362+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
